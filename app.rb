@@ -17,15 +17,12 @@ require 'eventful/api'
                      
    $newevent = eventful.call 'events/search',
                             :keywords => "marathon",
-                            :location => "new york city"
-
-
+                            :location => "new york city",
+                            :sort_order => "date",
+                            :sort_direction => "descending"
 
     $ids = $newevent["events"]["event"].map{|event_id| event_id["id"]}
-    $dates = $newevent["events"]["event"].map{|event_date| event_date["start_time"]}
-    $titles = $newevent["events"]["event"].map{|event_title| event_title["title"]}
-    $venue_address = $newevent["events"]["event"].map{|venue_address| venue_address["venue_address"]}                    
-
+                
    # puts "Event Title: #{event['title']}"
 
    # Get information about that event's venue
@@ -42,15 +39,18 @@ require 'eventful/api'
 
 get "/" do  
   $newevent = eventful.call 'events/search',
-                            :keywords => "marathon",
-                            :location => "new york city"
+                            :keywords => "fitness marathon",
+                            :location => "new york city",
+                            :sort_order => "date",
+                            :sort_direction => "descending"
+
   $dates = $newevent["events"]["event"].map{|event_date| event_date["start_time"]}
-  puts $dates                          
-  # puts $newevent
-  # puts $ids 
-  # puts $dates
-  # puts $titles
-  # puts $venue_address          
+  $titles = $newevent["events"]["event"].map{|event_title| event_title["title"]}
+  $venue_address = $newevent["events"]["event"].map{|venue_address| venue_address["venue_address"]}
+
+  puts $dates
+  puts $titles                         
+         
   erb :home
 end
 

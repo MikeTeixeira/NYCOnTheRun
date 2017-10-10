@@ -1,14 +1,23 @@
 GEM
   remote: http://rubygems.org/
   specs:
-    eventfulapi (2.2.1)
-      mime-types (> 0.0.0)
-    mime-types (3.1)
-      mime-types-data (~> 3.2015)
-    mime-types-data (3.2016.0521)
+    addressable (2.3.8)
+    dotenv (2.2.1)
+    eventful_api (0.0.1)
+      addressable (~> 2.3.4)
+      multi_json (~> 1.5.0)
+      oauth (~> 0.3.6)
+    multi_json (1.5.1)
+    oauth (0.3.6)
+      ruby-hmac (>= 0.3.1)
     rack (1.6.8)
     rack-protection (1.5.3)
       rack
+    ruby-hmac (0.4.0)
+    ruby_http_client (3.2.0)
+    sendgrid-ruby (5.1.0)
+      ruby_http_client (~> 3.2)
+      sinatra (>= 1.4.7, < 3)
     sinatra (1.4.8)
       rack (~> 1.5)
       rack-protection (~> 1.4)
@@ -19,7 +28,9 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  eventfulapi
+  dotenv
+  eventful_api
+  sendgrid-ruby
   sinatra
 
 BUNDLED WITH

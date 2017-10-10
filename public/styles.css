@@ -2,6 +2,19 @@
   margin: 0;
   padding: 0; }
 
+.modal {
+  position: absolute; }
+  .modal form {
+    width: 500px;
+    height: 500px; }
+  .modal label {
+    display: block;
+    position: relative;
+    font-size: 30px; }
+  .modal input {
+    position: relative; }
+
+
 .body {
   color: black;
   background-color: #2B2006;
@@ -68,5 +81,11 @@
   width: 60%;
   background-color: #FEF7DD;
   position: relative;
+<<<<<<< HEAD
   float: left;
   padding: 0 20px; }
+=======
+  float: left; }
+
+
+>>>>>>> c2380d86e2a5217eac4c3fabcc85954a189ccb27

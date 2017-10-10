@@ -2,52 +2,64 @@ require 'sinatra'
 require 'eventful/api'
 
 
+begin
 
+ api_key = ENV['EVENTFUL_API_KEY'];
+  # Start an API session with a username and password
+  eventful = Eventful::API.new api_key,
+                               :user => 'username',
+                               :password => 'password'
 
+  # Lookup an event by its unique id
+  # event = eventful.call 'events/get',
+  #                       :id => 'E0-001-107504950-0'
 
- begin
+                   
+  $newevent = eventful.call 'events/search',
+                           :keywords => "running marathon",
+                           :location => "new york city"
 
-  api_key = ENV['EVENTFUL_API_KEY'];
-   # Start an API session with a username and password
-   eventful = Eventful::API.new api_key,
-                                :user => 'username',
-                                :password => 'password'
+   $ids = $newevent["events"]["event"].map{|event_id| event_id["id"]}
+   $dates = $newevent["events"]["event"].map{|event_date| event_date["start_time"]}
+   $titles = $newevent["events"]["event"].map{|event_title| event_title["title"]}
+   $venue_address = $newevent["events"]["event"].map{|venue_address| venue_address["venue_address"]}   
+   $url = $newevent["events"]["event"].map{|url| url["url"]}                 
 
-   # Lookup an event by its unique id
-   event = eventful.call 'events/get',
-                         :id => 'E0-001-001042544-7'
+  # puts "Event Title: #{event['title']}"
 
-   @newevent = eventful.call 'events/search',
-                            :keywords => "marathon",
-                            :location => "new york city"                      
+  # Get information about that event's venue
+  # venue = eventful.call 'venues/get',
+  #                       :id => event['venue_id']
 
-   puts "Event Title: #{event['title']}"
+  # puts "Venue: #{venue['name']}"
 
-   # Get information about that event's venue
-   venue = eventful.call 'venues/get',
-                         :id => event['venue_id']
+# rescue Eventful::APIError => e
+#   puts "There was a problem with the API: #{e}"
+end
 
-   puts "Venue: #{venue['name']}"
-
-rescue Eventful::APIError => e
-   puts "There was a problem with the API: #{e}"
- end
 
 
 
 get "/" do  
-  puts @newevent           
-  erb :home
+ $newevent = eventful.call 'events/search',
+                           :keywords => "running marathon",
+                           :location => "new york city"
+ $dates = $newevent["events"]["event"].map{|event_date| event_date["start_time"]}
+ puts $dates    
+ puts $titles  
+ puts $url                    
+       
+erb :home
 end
 
 get "/contact" do
-  erb :contact
+ erb :contact
 end
 
 get "/images" do
-  erb :images
+ erb :images
 end
 
 get "/runners_blog" do
-  erb :blogs
+ erb :blogs
 end

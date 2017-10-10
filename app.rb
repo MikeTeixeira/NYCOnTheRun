@@ -29,7 +29,7 @@ require 'eventful/api'
 
    puts "Venue: #{venue['name']}"
 
- rescue Eventful::APIError => e
+rescue Eventful::APIError => e
    puts "There was a problem with the API: #{e}"
  end
 

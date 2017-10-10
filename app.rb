@@ -3,7 +3,8 @@ require 'eventful/api'
 require 'dotenv/load'
 require 'sendgrid-ruby'
 
- begin
+begin
+
 
   sendgrid_api = "kCSn-3M5SceqmYn8t3F8kA";
 
@@ -12,6 +13,8 @@ require 'sendgrid-ruby'
    eventful = Eventful::API.new api_key,
                                 :user => 'username',
                                 :password => 'password'
+
+
 
    # Lookup an event by its unique id
    # event = eventful.call 'events/get',
@@ -28,15 +31,12 @@ require 'sendgrid-ruby'
                 
    # puts "Event Title: #{event['title']}"
 
-   # Get information about that event's venue
-   # venue = eventful.call 'venues/get',
-   #                       :id => event['venue_id']
+  # puts "Venue: #{venue['name']}"
 
-   # puts "Venue: #{venue['name']}"
+# rescue Eventful::APIError => e
+#   puts "There was a problem with the API: #{e}"
+end
 
- # rescue Eventful::APIError => e
- #   puts "There was a problem with the API: #{e}"
- end
 
 
 
@@ -58,7 +58,7 @@ get "/" do
 end
 
 get "/contact" do
-  erb :contact
+ erb :contact
 end
 
 post "/contact" do
@@ -76,9 +76,9 @@ post "/contact" do
 end
 
 get "/images" do
-  erb :images
+ erb :images
 end
 
 get "/runners_blog" do
-  erb :blogs
+ erb :blogs
 end

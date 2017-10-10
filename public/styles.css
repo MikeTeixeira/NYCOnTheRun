@@ -1,3 +1,4 @@
+
 .modal {
   position: absolute; }
   .modal form {
@@ -9,3 +10,15 @@
     font-size: 30px; }
   .modal input {
     position: relative; }
+
+
+body {
+  color: black;
+  background-color: #5F5948; }
+
+.left-col {
+  background-color: #F8E3D7; }
+
+.right-col {
+  background-color: #F8E3D7; }
+

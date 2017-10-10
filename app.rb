@@ -17,8 +17,9 @@ require 'eventful/api'
    event = eventful.call 'events/get',
                          :id => 'E0-001-001042544-7'
 
-   newevent = eventful.call 'events/get',
-                            :title => "Marathon"                      
+   @newevent = eventful.call 'events/search',
+                            :keywords => "marathon",
+                            :location => "new york city"                      
 
    puts "Event Title: #{event['title']}"
 
@@ -35,7 +36,7 @@ require 'eventful/api'
 
 
 get "/" do  
-  p newevent           
+  puts @newevent           
   erb :home
 end
 

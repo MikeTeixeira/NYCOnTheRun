@@ -2,9 +2,6 @@ require 'sinatra'
 require 'eventful/api'
 
 
-
-
-
  begin
 
   api_key = ENV['EVENTFUL_API_KEY'];
@@ -14,29 +11,46 @@ require 'eventful/api'
                                 :password => 'password'
 
    # Lookup an event by its unique id
-   event = eventful.call 'events/get',
-                         :id => 'E0-001-001042544-7'
-
-   @newevent = eventful.call 'events/search',
+   # event = eventful.call 'events/get',
+   #                       :id => 'E0-001-107504950-0'
+ 
+                     
+   $newevent = eventful.call 'events/search',
                             :keywords => "marathon",
-                            :location => "new york city"                      
+                            :location => "new york city"
 
-   puts "Event Title: #{event['title']}"
+
+
+    $ids = $newevent["events"]["event"].map{|event_id| event_id["id"]}
+    $dates = $newevent["events"]["event"].map{|event_date| event_date["start_time"]}
+    $titles = $newevent["events"]["event"].map{|event_title| event_title["title"]}
+    $venue_address = $newevent["events"]["event"].map{|venue_address| venue_address["venue_address"]}                    
+
+   # puts "Event Title: #{event['title']}"
 
    # Get information about that event's venue
-   venue = eventful.call 'venues/get',
-                         :id => event['venue_id']
+   # venue = eventful.call 'venues/get',
+   #                       :id => event['venue_id']
 
-   puts "Venue: #{venue['name']}"
+   # puts "Venue: #{venue['name']}"
 
- rescue Eventful::APIError => e
-   puts "There was a problem with the API: #{e}"
+ # rescue Eventful::APIError => e
+ #   puts "There was a problem with the API: #{e}"
  end
 
 
 
 get "/" do  
-  puts @newevent           
+  $newevent = eventful.call 'events/search',
+                            :keywords => "marathon",
+                            :location => "new york city"
+  $dates = $newevent["events"]["event"].map{|event_date| event_date["start_time"]}
+  puts $dates                          
+  # puts $newevent
+  # puts $ids 
+  # puts $dates
+  # puts $titles
+  # puts $venue_address          
   erb :home
 end
 

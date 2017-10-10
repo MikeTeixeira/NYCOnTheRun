@@ -1,8 +1,11 @@
 require 'sinatra'
 require 'eventful/api'
-
+require 'dotenv/load'
+require 'sendgrid-ruby'
 
  begin
+
+  sendgrid_api = "kCSn-3M5SceqmYn8t3F8kA";
 
   api_key = ENV['EVENTFUL_API_KEY'];
    # Start an API session with a username and password
@@ -56,6 +59,20 @@ end
 
 get "/contact" do
   erb :contact
+end
+
+post "/contact" do
+  #   from = Email.new(params["email"])
+  #   to = Email.new(email: 'teixeiramichael5@gmail.com')
+  #   subject = (params["subject"])
+  #   content = Content.new(type: 'text/plain', value: 'and easy to do anywhere, even with Ruby')
+  #   mail = Mail.new(from, subject, to, content)
+
+  #   sg = SendGrid::API.new(api_key: ENV['SENDGRID_API_KEY'])
+  #   response = sg.client.mail._('send').post(request_body: mail.to_json)
+  # puts response.status_code
+  # puts response.body
+  # puts response.headers
 end
 
 get "/images" do

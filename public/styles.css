@@ -1,0 +1,11 @@
+.modal {
+  position: absolute; }
+  .modal form {
+    width: 500px;
+    height: 500px; }
+  .modal label {
+    display: block;
+    position: relative;
+    font-size: 30px; }
+  .modal input {
+    position: relative; }

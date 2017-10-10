@@ -1,4 +1,17 @@
 
+.modal {
+  position: absolute; }
+  .modal form {
+    width: 500px;
+    height: 500px; }
+  .modal label {
+    display: block;
+    position: relative;
+    font-size: 30px; }
+  .modal input {
+    position: relative; }
+
+
 body {
   color: black;
   background-color: #5F5948; }
@@ -8,3 +21,4 @@ body {
 
 .right-col {
   background-color: #F8E3D7; }
+

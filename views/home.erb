@@ -1,20 +1,24 @@
 <h1>Homepage</h1>
 
-<header>
+<header id="home_banner">
   <h1>Running USA</h1>
   <p>Details about our site</p>
 </header>
 
 <div class="left-col">
   <h2>Upcoming Events</h2>
+
+  <div class="event_col">
+    <p><%= $titles[0] %></p>
+    
+  </div>
+
+  <ul>
+    <% $dates.each do |date| %>
+    <li><%= p date %></li>
+    <% end %>
+  </ul>
 </div>
 
-<div class="right-col"></div>
-
-<div class="footer"></div>
-
-
-
-
-
+<div class="right_col"></div>
 

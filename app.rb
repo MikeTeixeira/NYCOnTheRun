@@ -10,26 +10,20 @@ begin
                                :user => 'username',
                                :password => 'password'
 
-  # Lookup an event by its unique id
-  # event = eventful.call 'events/get',
-  #                       :id => 'E0-001-107504950-0'
+   # Lookup an event by its unique id
+   # event = eventful.call 'events/get',
+   #                       :id => 'E0-001-107504950-0'
+ 
+                     
+   $newevent = eventful.call 'events/search',
+                            :keywords => "marathon",
+                            :location => "new york city",
+                            :sort_order => "date",
+                            :sort_direction => "descending"
 
-                   
-  $newevent = eventful.call 'events/search',
-                           :keywords => "running marathon",
-                           :location => "new york city"
-
-   $ids = $newevent["events"]["event"].map{|event_id| event_id["id"]}
-   $dates = $newevent["events"]["event"].map{|event_date| event_date["start_time"]}
-   $titles = $newevent["events"]["event"].map{|event_title| event_title["title"]}
-   $venue_address = $newevent["events"]["event"].map{|venue_address| venue_address["venue_address"]}   
-   $url = $newevent["events"]["event"].map{|url| url["url"]}                 
-
-  # puts "Event Title: #{event['title']}"
-
-  # Get information about that event's venue
-  # venue = eventful.call 'venues/get',
-  #                       :id => event['venue_id']
+    $ids = $newevent["events"]["event"].map{|event_id| event_id["id"]}
+                
+   # puts "Event Title: #{event['title']}"
 
   # puts "Venue: #{venue['name']}"
 
@@ -41,15 +35,20 @@ end
 
 
 get "/" do  
- $newevent = eventful.call 'events/search',
-                           :keywords => "running marathon",
-                           :location => "new york city"
- $dates = $newevent["events"]["event"].map{|event_date| event_date["start_time"]}
- puts $dates    
- puts $titles  
- puts $url                    
-       
-erb :home
+  $newevent = eventful.call 'events/search',
+                            :keywords => "fitness marathon",
+                            :location => "new york city",
+                            :sort_order => "date",
+                            :sort_direction => "descending"
+
+  $dates = $newevent["events"]["event"].map{|event_date| event_date["start_time"]}
+  $titles = $newevent["events"]["event"].map{|event_title| event_title["title"]}
+  $venue_address = $newevent["events"]["event"].map{|venue_address| venue_address["venue_address"]}
+
+  puts $dates
+  puts $titles                         
+         
+  erb :home
 end
 
 get "/contact" do

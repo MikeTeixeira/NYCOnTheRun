@@ -1,19 +1,53 @@
-* {
-  margin: 0;
-  padding: 0; }
 
 .modal {
-  position: absolute; }
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin-left: auto;
+  margin-right: auto;
+  width: 1000px;
+  background-color: blue;
+  border-radius: 10px; }
   .modal form {
     width: 500px;
-    height: 500px; }
+    height: 500px;
+    margin-left: 30px;
+    margin-top: 15px; }
   .modal label {
     display: block;
     position: relative;
-    font-size: 30px; }
-  .modal input {
-    position: relative; }
+    font-size: 50px; }
+  .modal #modal_input {
+    position: relative;
+    font-size: 28px;
+    border: 0;
+    border-bottom: 1px solid black;
+    background-color: transparent;
+    width: 330px;
+    margin-top: 40px;
+    outline: none; }
+  .modal textarea {
+    width: 400px;
+    height: 150px;
+    margin-top: 20px;
+    font-size: 20px; }
+  .modal textarea:focus {
+    outline: none; }
+  .modal .submit_holder {
+    text-align: center;
+    width: 400px; }
+    .modal .submit_holder #modal_submit {
+      margin-top: 30px;
+      width: 300px;
+      font-size: 30px;
+      border-radius: 10px;
+      border: 0;
+      outline: none;
+      background-color: green; }
 
+* {
+  margin: 0;
+  padding: 0; }
 
 .body {
   color: black;
@@ -21,6 +55,16 @@
   font-family: "Mukta", sans-serif;
   margin-top: 70px;
   padding: 20px 50px; }
+
+.header-content {
+  position: absolute;
+  z-index: 3;
+  top: 20%;
+  left: 50%; }
+
+.header-photo {
+  width: 100%;
+  height: 300px; }
 
 .nav {
   width: 100%;
@@ -81,11 +125,10 @@
   width: 60%;
   background-color: #FEF7DD;
   position: relative;
-<<<<<<< HEAD
   float: left;
-  padding: 0 20px; }
-=======
-  float: left; }
+  padding: 0 20px; 
+}
 
 
->>>>>>> c2380d86e2a5217eac4c3fabcc85954a189ccb27
+
+

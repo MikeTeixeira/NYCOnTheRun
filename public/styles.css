@@ -1,9 +1,14 @@
 body {
   color: black;
-  background-color: #5F5948; }
+  background-color: #6E362C; }
+
+.nav li {
+  background-color: white;
+  text-decoration: none;
+  display: inline-block; }
 
 .left-col {
-  background-color: #F8E3D7; }
+  background-color: #AFA8A0; }
 
 .right-col {
   background-color: #F8E3D7; }

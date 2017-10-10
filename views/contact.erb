@@ -3,15 +3,13 @@
 
 <div class="modal">
   <form class="form_modal" action="post">
-    <label for="race_name">Name</label>
-    <input type="text">
-    <label for="race_location">Location</label>
-    <input type="text">
-    <label for="race_description">Description</label>
-    <textarea></textarea>
-    <label for="start_date">Date</label>
-    <input type="date">
-    <input type="submit">
+    <input id="modal_input" placeholder="Name" type="text" name="name">
+    <input id="modal_input" placeholder="Email" type="text" name="email">
+    <input id="modal_input" placeholder="Subject" type="text" name="subject">
+    <textarea placeholder="Describe your event" id="description" name="comment"></textarea>
+    <div class="submit_holder">
+      <button id="modal_submit" type="submit">SUBMIT</button>
+    </div>
   </form>
 </div>
 
@@ -35,14 +33,10 @@ Also - feel free to report any problem you experience on this site so that we ca
 <div>
     <form method="post" action="">
         <label for="contact">Contact Us</label>
-        <label for="name">Name</label>
-        <input type="text" name="name">
-        <label for="email">Email Address</label>
-        <input type="text" name="email">
-        <label for="subject">Subject</label>
-        <input type="text" name="subject">
-        <label for="comment">Comments</label>
-        <textarea name="comment"></textarea>
+        <input placeholder="Name" type="text" name="name">
+        <input placeholder="Email" type="text" name="email">
+        <input placeholder="Subject" type="text" name="subject">
+        <textarea placeholder="Describe your event" id="description" name="comment"></textarea>
         <input type="submit">
     </form>
 </div>

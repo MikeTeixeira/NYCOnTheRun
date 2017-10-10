@@ -1,47 +1,58 @@
-
-/* All pages */
+.modal {
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin-left: auto;
+  margin-right: auto;
+  width: 1000px;
+  background-color: blue;
+  border-radius: 10px; }
+  .modal form {
+    width: 500px;
+    height: 500px;
+    margin-left: 30px;
+    margin-top: 15px; }
+  .modal label {
+    display: block;
+    position: relative;
+    font-size: 50px; }
+  .modal #modal_input {
+    position: relative;
+    font-size: 28px;
+    border: 0;
+    border-bottom: 1px solid black;
+    background-color: transparent;
+    width: 330px;
+    margin-top: 40px;
+    outline: none; }
+  .modal textarea {
+    width: 400px;
+    height: 150px;
+    margin-top: 20px;
+    font-size: 20px; }
+  .modal textarea:focus {
+    outline: none; }
+  .modal .submit_holder {
+    text-align: center;
+    width: 400px; }
+    .modal .submit_holder #modal_submit {
+      margin-top: 30px;
+      width: 300px;
+      font-size: 30px;
+      border-radius: 10px;
+      border: 0;
+      outline: none;
+      background-color: green; }
 
 * {
   margin: 0;
   padding: 0; }
-
-.modal {
-  position: absolute; }
-  .modal form {
-    width: 500px;
-    height: 500px; }
-  .modal label {
-    display: block;
-    position: relative;
-    font-size: 30px; }
-  .modal input {
-    position: relative; }
-
 
 .body {
   color: black;
   background-color: #FAEBD8;
   margin-top: 70px;
   padding: 20px 50px; }
-
-.nav {
-  width: 100%;
-  top: 0;
-  background-color: black;
-  padding: 20px 50px;
-  position: fixed;
-  text-transform: uppercase;
-  text-decoration: none;
-  color: white;
-  font-size: 1.3em; }
-
-.nav li {
-  text-decoration: none;
-  color: white;
-  display: inline-block;
-  padding: 5px; }
-
-/* Home page */
 
 .header-content {
   position: absolute;
@@ -53,6 +64,21 @@
   width: 100%;
   height: 300px; }
 
+.nav {
+  width: 100%;
+  top: 0;
+  background-color: black;
+  padding: 20px 50px;
+  position: fixed;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: white;
+  font-size: 1.3em; }
+  .nav li {
+    text-decoration: none;
+    display: inline-block;
+    padding: 5px; }
+
 .left-col {
   background-color: #AFA8A0;
   position: relative;
@@ -63,4 +89,5 @@
   position: relative;
   float: left; }
 
-
+.footer {
+  clear: both; }

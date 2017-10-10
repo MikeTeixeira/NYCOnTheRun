@@ -1,17 +1,59 @@
+
 .modal {
   position: absolute;
+  left:0;
+  right:0;
+  margin-left:auto;
+  margin-right:auto;
+  width: 1000px;
+  background-color: blue;
+  border-radius: 10px;
   form {
     width: 500px;
     height: 500px;
+    margin-left: 30px;
+    margin-top: 15px;
   }
   label {
     display: block;
     position: relative;
-    font-size: 30px;
+    font-size: 50px;
   }
-  input {
+  #modal_input {
     position: relative;
+    font-size: 28px;
+    border: 0;
+    border-bottom: 1px solid black;
+    background-color: transparent;
+    width: 330px;
+    margin-top: 40px;
+    outline: none;
+  }
 
+  textarea {
+    width: 400px;
+    height: 150px;
+    margin-top: 20px;
+    font-size: 20px;
+  }
+  textarea:focus{
+    outline: none;
+    
+  }
+
+  .submit_holder{
+    text-align: center;
+    width: 400px;
+
+    #modal_submit{
+    margin-top: 30px;
+    width: 300px;
+    font-size: 30px;
+    border-radius: 10px;
+    border: 0;
+    outline: none;
+    background-color: green;
+    }
   }
 }
 
@@ -49,12 +91,11 @@
 	text-decoration: none;
 	color: white;
 	font-size: 1.3em;
-}
-
-.nav li {
+  li {
 	text-decoration: none;
 	display: inline-block;
 	padding: 5px;
+  }
 }
 
 .left-col {
@@ -67,7 +108,7 @@
 	background-color: #F8E3D7;
 	position: relative;
 	float: left;
-
+  }
 .footer {
 	clear: both;
 }

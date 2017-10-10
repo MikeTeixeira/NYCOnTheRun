@@ -7,7 +7,7 @@
 		"uuidString": "99C4CB40-26C8-4AB6-B968-4EAE2F2C92E5"
 		}
 	],
-"creatorBuild": "25900",
+"creatorBuild": "25849",
 "files": {
 	"\/.env": {
 		"ft": 8192,
@@ -82,7 +82,7 @@
 		},
 	"\/public\/styles.scss": {
 		"aP": 0,
-		"bl": 0,
+		"bl": 1,
 		"dP": 10,
 		"dS": 0,
 		"ft": 4,
@@ -142,7 +142,7 @@
 	},
 "projectAttributes": {
 	"creationDate": 529336625,
-	"displayValue": "fitness_business_website",
+	"displayValue": "running_usa",
 	"displayValueWasSetByUser": 0,
 	"iconImageName": "meme-punDog"
 	},
@@ -548,10 +548,6 @@
 			"active": 0,
 			"optionString": "{'setWithoutGet': true, 'getWithoutSet': false}"
 			},
-		"array-bracket-newline": {
-			"active": 0,
-			"optionString": "{'multiline': true, 'minItems': null}"
-			},
 		"array-bracket-spacing": {
 			"active": 0,
 			"optionString": "'never', {'singleValue': false, 'objectsInArrays': false, 'arraysInArrays': false}"
@@ -559,10 +555,6 @@
 		"array-callback-return": {
 			"active": 0,
 			"optionString": ""
-			},
-		"array-element-newline": {
-			"active": 0,
-			"optionString": "'always'"
 			},
 		"arrow-body-style": {
 			"active": 0,
@@ -660,10 +652,6 @@
 			"active": 0,
 			"optionString": "'always', {'null': 'always'}"
 			},
-		"for-direction": {
-			"active": 0,
-			"optionString": ""
-			},
 		"func-call-spacing": {
 			"active": 0,
 			"optionString": "'never'"
@@ -683,10 +671,6 @@
 		"generator-star-spacing": {
 			"active": 0,
 			"optionString": "{'before': true, 'after': false}"
-			},
-		"getter-return": {
-			"active": 0,
-			"optionString": "{'allowImplicit': false}"
 			},
 		"global-require": {
 			"active": 0,
@@ -815,10 +799,6 @@
 		"no-bitwise": {
 			"active": 0,
 			"optionString": "{'allow': ['~'], 'int32Hint': true}"
-			},
-		"no-buffer-constructor": {
-			"active": 0,
-			"optionString": ""
 			},
 		"no-caller": {
 			"active": 0,
@@ -1364,10 +1344,6 @@
 			"active": 0,
 			"optionString": "{'blocks': 'always', 'switches': 'always', 'classes': 'always'}"
 			},
-		"padding-line-between-statements": {
-			"active": 0,
-			"optionString": "{blankLine: 'always', prev:'*', next:'return'}"
-			},
 		"prefer-arrow-callback": {
 			"active": 0,
 			"optionString": ""
@@ -1436,10 +1412,6 @@
 			"active": 0,
 			"optionString": "{'before': false, 'after': true}"
 			},
-		"semi-style": {
-			"active": 0,
-			"optionString": "'last'"
-			},
 		"sort-imports": {
 			"active": 0,
 			"optionString": "{'ignoreCase': false, 'ignoreMemberSort': true, 'memberSyntaxSortOrder': ['none', 'all', 'multiple', 'single']}"
@@ -1479,10 +1451,6 @@
 		"strict": {
 			"active": 0,
 			"optionString": "'safe'"
-			},
-		"switch-colon-spacing": {
-			"active": 0,
-			"optionString": "{'after': true, 'before': false}"
 			},
 		"symbol-description": {
 			"active": 0,
@@ -2116,7 +2084,6 @@
 	"previewPathAddition": "",
 	"skippedFoldersString": "log, _logs, logs, _cache, cache, \/storage\/framework\/sessions, node_modules",
 	"sourceFolderName": "source",
-	"susyVersion": 3,
 	"uglifyDefinesString": "",
 	"uglifyFlags2": {
 		"ascii-only": {

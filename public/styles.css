@@ -1,3 +1,4 @@
+
 .modal {
   position: absolute;
   left: 0;
@@ -50,7 +51,8 @@
 
 .body {
   color: black;
-  background-color: #FAEBD8;
+  background-color: #2B2006;
+  font-family: "Mukta", sans-serif;
   margin-top: 70px;
   padding: 20px 50px; }
 
@@ -67,27 +69,66 @@
 .nav {
   width: 100%;
   top: 0;
-  background-color: black;
+  background-color: #CFA50E;
   padding: 20px 50px;
   position: fixed;
   text-transform: uppercase;
   text-decoration: none;
   color: white;
-  font-size: 1.3em; }
+  font-size: 1.3em;
+  z-index: 3;
+  font-family: "Mukta", sans-serif; }
   .nav li {
-    text-decoration: none;
     display: inline-block;
     padding: 5px; }
-
-.left-col {
-  background-color: #AFA8A0;
-  position: relative;
-  float: left; }
-
-.right-col {
-  background-color: #F8E3D7;
-  position: relative;
-  float: left; }
+  .nav a {
+    padding: 15px 15px;
+    color: #2B0E02;
+    font-weight: bold;
+    text-decoration: none; }
+  .nav a:hover {
+    background-color: #2B0E02;
+    color: #CFA50E; }
 
 .footer {
   clear: both; }
+
+.header-content {
+  position: absolute;
+  top: 18%;
+  left: 16%; }
+  .header-content h1 {
+    text-transform: uppercase; }
+  .header-content p {
+    margin-top: -10px;
+    font-size: 1.5em;
+    padding-left: 110px; }
+
+.header-photo {
+  width: 100%;
+  height: 400px; }
+
+.wrapper {
+  padding: 30px;
+  width: 95%;
+  height: 800px;
+  background-color: #E5F4FD; }
+
+.left-col {
+  width: 30%;
+  position: relative;
+  background-color: #FEF7DD;
+  float: left;
+  padding: 0 20px; }
+
+.right-col {
+  width: 60%;
+  background-color: #FEF7DD;
+  position: relative;
+  float: left;
+  padding: 0 20px; 
+}
+
+
+
+

@@ -7,24 +7,26 @@
   <p>Details about our site</p>
 </header>
 
+<div class="wrapper">
+  <div class="left-col">
+    <h2>Upcoming Events</h2>
 
-<div class="left-col">
-  <h2>Upcoming Events</h2>
+    <div class="event-col">
+      <p><%= $titles[0] %></p>
+      
+    </div>
 
-  <div class="event-col">
-    <p><%= $titles[0] %></p>
-    
+    <ul>
+      <% $dates.each do |date| %>
+      <li><%= p date %></li>
+      <% end %>
+    </ul>
   </div>
 
-  <ul>
-    <% $dates.each do |date| %>
-    <li><%= p date %></li>
-    <% end %>
-  </ul>
-</div>
+  <div class="right-col">
+    <h2>Feature Stories</h2>
 
-<div class="right-col">
-  <h2>Feature Stories</h2>
+  </div>
 
 </div>
 

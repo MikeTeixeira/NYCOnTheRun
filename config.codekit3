@@ -9,12 +9,6 @@
 	],
 "creatorBuild": "25900",
 "files": {
-	"\/.env": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/.env",
-		"oF": 0
-		},
 	"\/.gitignore": {
 		"ft": 8192,
 		"oA": 2,
@@ -58,6 +52,16 @@
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
+		"q": 100
+		},
+	"\/public\/images\/running-header.jpg": {
+		"ft": 16384,
+		"iS": 96715,
+		"oA": 0,
+		"oAP": "\/public\/images\/running-header.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
 		"q": 100
 		},
 	"\/public\/styles-min.css": {

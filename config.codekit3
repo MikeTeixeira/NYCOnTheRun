@@ -27,28 +27,15 @@
 		"oAP": "\/Gemfile.lock",
 		"oF": 0
 		},
-	"\/public\/css\/styles.css": {
+	"\/public\/styles-min.css": {
 		"aP": 1,
 		"bl": 0,
 		"ft": 16,
 		"ma": 0,
 		"oA": 0,
-		"oAP": "\/public\/css\/styles-min.css",
+		"oAP": "\/public\/styles-min-min.css",
 		"oF": 0,
 		"oS": 3
-		},
-	"\/public\/css\/styles.scss": {
-		"aP": 0,
-		"bl": 1,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 0,
-		"oAP": "\/public\/css\/styles.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
 		},
 	"\/public\/styles.css": {
 		"aP": 1,

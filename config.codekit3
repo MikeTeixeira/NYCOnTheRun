@@ -9,6 +9,18 @@
 	],
 "creatorBuild": "25900",
 "files": {
+	"\/.env": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/.env",
+		"oF": 0
+		},
+	"\/.gitignore": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/.gitignore",
+		"oF": 0
+		},
 	"\/app.rb": {
 		"ft": 8192,
 		"oA": 2,

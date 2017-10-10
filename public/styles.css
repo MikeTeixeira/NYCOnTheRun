@@ -5,6 +5,19 @@
   margin: 0;
   padding: 0; }
 
+.modal {
+  position: absolute; }
+  .modal form {
+    width: 500px;
+    height: 500px; }
+  .modal label {
+    display: block;
+    position: relative;
+    font-size: 30px; }
+  .modal input {
+    position: relative; }
+
+
 .body {
   color: black;
   background-color: #FAEBD8;
@@ -49,3 +62,5 @@
   background-color: #F8E3D7;
   position: relative;
   float: left; }
+
+

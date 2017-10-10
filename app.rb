@@ -1,5 +1,6 @@
 require 'sinatra'
 require 'eventful/api'
+
 require 'dotenv/load'
 require 'sendgrid-ruby'
 

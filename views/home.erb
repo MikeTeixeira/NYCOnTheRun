@@ -1,23 +1,31 @@
-<h1>Homepage</h1>
 
-<header id="home_banner">
+ <img class="header-photo" src="../images/header-photo.png">
+
+<header class="header-content">
+  <h1>Homepage</h1>
   <h1>Running USA</h1>
   <p>Details about our site</p>
 </header>
 
-<div class="left-col">
-  <h2>Upcoming Events</h2>
+<div class="wrapper">
+  <div class="left-col">
+    <h2>Upcoming Events</h2>
 
-  <div class="event_col">
-    <p><%= $titles[0] %></p>  
+    <div class="event-col">
+      <p><%= $titles[0] %></p>
+      
+    </div>
+
+    <ul>
+      <% $dates.each do |date| %>
+      <li><%= p date %></li>
+      <% end %>
+    </ul>
   </div>
 
-  <ul>
-    <% $dates.each do |date| %>
-    <li><%= p date %></li>
-    <% end %>
-  </ul>
+  <div class="right-col">
+    <h2>Feature Stories</h2>
+
 </div>
 
-<div class="right_col"></div>
 

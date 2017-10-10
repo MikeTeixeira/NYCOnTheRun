@@ -1,4 +1,13 @@
 
+$blue: #E5F4FD;
+$orange: #CFA50E;
+$peach: #FEF7DD;
+$dark-brown: #2B0E02;
+$green: #2B2006;
+$sans-serif-font: 'Mukta', sans-serif;
+
+// All pages
+
 * {
   margin: 0;
   padding: 0; 
@@ -6,54 +15,88 @@
 
 .body {
   color: black;
-  background-color: #FAEBD8;
+  background-color: $green;
+  font-family: $sans-serif-font;
   margin-top: 70px;
   padding: 20px 50px;
-}
-
-.header-content {
-	position: absolute;
-	z-index: 3;
-	top: 20%;
-	left: 50%;
-}
-
-.header-photo {
-	width: 100%;
-	height: 300px;
 }
 
 .nav {
 	width: 100%;
 	top: 0;
-	background-color: black;
+	background-color: $orange;
 	padding: 20px 50px;
 	position: fixed;
 	text-transform: uppercase;
 	text-decoration: none;
 	color: white;
 	font-size: 1.3em;
-}
+	z-index: 3;
+	font-family: $sans-serif-font;
 
-.nav li {
-	text-decoration: none;
-	display: inline-block;
-	padding: 5px;
-}
+	li {
+		display: inline-block;
+		padding: 5px;
+	}
 
-.left-col {
-	background-color: #AFA8A0;
-	position: relative;
-	float: left;
+	a{
+		padding: 15px 15px;
+		color: $dark-brown;
+		font-weight: bold;
+		text-decoration: none;
+	}
+	a:hover {
+		background-color: $dark-brown;
+		color: $orange;
+	}
 }
-
-.right-col {
-	background-color: #F8E3D7;
-	position: relative;
-	float: left;
 
 .footer {
 	clear: both;
 }
 
+// Home page
+
+.header-content {
+	position: absolute;
+	top: 18%;
+	left: 16%;
+
+	h1 {
+		text-transform: uppercase;
+	}
+	p {
+		margin-top: -10px;
+		font-size: 1.5em;
+		padding-left: 110px;
+	}
+}
+
+.header-photo {
+	width: 100%;
+	height: 400px;
+}
+
+.wrapper {
+	padding: 30px;
+	width: 95%;
+	height: 800px;
+	background-color: $blue;
+}
+
+.left-col {
+	width: 30%;
+	position: relative;
+	background-color: $peach;
+	float: left;
+	padding: 0 20px; 
+}
+
+.right-col {
+	width: 60%;
+	background-color: $peach;
+	position: relative;
+	float: left;
+	padding: 0 20px;
+}
 

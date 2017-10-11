@@ -1,48 +1,38 @@
 
-<button>Add Your Race</button>
 
 <div class="modal">
   <form class="form_modal" action="post">
-    <label for="race_name">Name</label>
-    <input type="text">
-    <label for="race_location">Location</label>
-    <input type="text">
-    <label for="race_description">Description</label>
-    <textarea></textarea>
-    <label for="start_date">Date</label>
-    <input type="date">
-    <input type="submit">
+    <input id="modal_input" placeholder="Name" type="text" name="name">
+    <input id="modal_input" placeholder="Email" type="text" name="email">
+    <input id="modal_input" placeholder="Subject" type="text" name="subject">
+    <textarea placeholder="Describe your event" id="description" name="comment"></textarea>
+    <div class="submit_holder">
+      <button id="modal_submit" type="submit">SUBMIT</button>
+    </div>
   </form>
+  <div class="video_wrapper">
+      <iframe width="560" height="375" src="https://www.youtube-nocookie.com/embed/wm2hlOFy-3c?rel=0&amp;controls=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
+  </div>
 </div>
 
-<p>We allow ANYONE to submit a race to our directory. We personally verify EVERY submittal before it is public on our site. To add your event, or an event that you know about that we don't already have:
+<div class="contact_wrapper">
+  <div class="left_contact">
 
-<strong>Submit Your Race</strong> 
+    <h1>Contact</h1>
+  
+    <p>We allow <strong>ANYONE</strong> to submit a race to our directory. We personally verify <strong>EVERY</strong> submittal before it is public on our site. To add your event, or an event that you know about that we don't already have:</p> <button id="race_button">Add Your Race</button> 
 
-If your race is already on our site, but with an old date or incorrect information, please click on the update icon  next to the listing, and submit an update with the new information. </p>
+    <p>The best way to contact us is by email at werun@fakeemail.com.</p> 
 
-<p>The best way to contact us is by email at werun@fakeemail.com. 
+  </div>
 
-We really do answer all of our email. Occasionally, something gets caught in a spam filter, or once in a blue moon we get a really obnoxious email that we delete. But if you have a question, comment, or criticism about anything related to our site, we will respond to you, generally within a few hours, at most a day. 
-
-Also - feel free to report any problem you experience on this site so that we can fix it.</p>
-
-
-
-
-
-
-<div>
+  <div class="right_contact">
     <form method="post" action="">
-        <label for="contact">Contact Us</label>
-        <label for="name">Name</label>
-        <input type="text" name="name">
-        <label for="email">Email Address</label>
-        <input type="text" name="email">
-        <label for="subject">Subject</label>
-        <input type="text" name="subject">
-        <label for="comment">Comments</label>
-        <textarea name="comment"></textarea>
-        <input type="submit">
-    </form>
+          <input class="contact_input" placeholder="Name" type="text" name="name">
+          <input class="contact_input" placeholder="Email" type="text" name="email">
+          <input class="contact_input" placeholder="Subject" type="text" name="subject">
+          <textarea placeholder="Describe your event" id="description" name="comment"></textarea>
+          <input type="submit">
+      </form>
+  </div>
 </div>

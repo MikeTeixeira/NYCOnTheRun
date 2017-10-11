@@ -30,29 +30,29 @@ $sans-serif-font: 'Mukta', sans-serif;
 	text-transform: uppercase;
 	text-decoration: none;
 	color: white;
-	font-size: 1.3em;
+	font-size: 1.5em;
 	z-index: 3;
 	font-family: $sans-serif-font;
 
 	li {
 		display: inline-block;
-		padding: 5px;
 	}
 
 	a{
-		padding: 15px 15px;
+		padding: 5px 35px;
 		color: $dark-brown;
 		font-weight: bold;
 		text-decoration: none;
 	}
 	a:hover {
-		background-color: $dark-brown;
-		color: $orange;
+		background-color: white;
 	}
 }
 
-.footer {
+footer {
 	clear: both;
+	background-color: $dark-brown;
+	height: 300px;
 }
 
 //---------HOMEPAGE------------//
@@ -79,26 +79,63 @@ $sans-serif-font: 'Mukta', sans-serif;
 
 .wrapper {
 	padding: 30px;
+	padding-bottom: 70px;
 	width: 95%;
 	height: 800px;
 	background-color: $blue;
-
+	h2 {
+		padding-left: 10px;
+		padding-bottom: 10px;
+		text-transform: uppercase;
+	}
+	td {
+		padding: 5px;
+	}
+	tr.event_title {
+		padding-bottom: 5px;
+	}
+	td.event_time {
+		background-color: $dark-brown;
+		color: white;
+		width: 130px;
+		font-size: 1.4em;
+		text-align: center;
+	}
 }
 
 .left-col {
-	width: 30%;
+	width: 40%;
+	margin-right: 25px;
 	position: relative;
-	background-color: $peach;
+	background-color: white;
 	float: left;
-	padding: 0 20px; 
+	padding: 20px 20px; 
+	li {
+		list-style-type: none;
+	}
+	margin-bottom: 20px;
 }
 
 .right-col {
-	width: 60%;
+	width: 51.3%;
 	background-color: $peach;
 	position: relative;
 	float: left;
-  }
+	padding: 20px 20px;
+}
+
+table {
+	padding: 0 10px;
+	h4 {
+		font-size: 1.3em;
+	}
+	img {
+		float: left;
+		width: 300px;
+		height: 220px;
+	}
+}
+
 .footer {
 	clear: both;
 	padding: 0 20px;

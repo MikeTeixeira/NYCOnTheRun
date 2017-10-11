@@ -1,12 +1,10 @@
-<<<<<<< HEAD
-=======
 
->>>>>>> 33dd83617d24067e424efbb17df9d36c4358d9db
+
 * {
   margin: 0;
   padding: 0; }
 
-.home {
+.body {
   color: black;
   background-color: #2B2006;
   font-family: "Mukta", sans-serif;
@@ -102,10 +100,6 @@ table {
     float: left;
     width: 300px;
     height: 220px; }
-
-.footer {
-  clear: both;
-  padding: 0 20px; }
 
 .ease_in {
   transition: all 600ms cubic-bezier(0.39, 0.575, 0.565, 1); }

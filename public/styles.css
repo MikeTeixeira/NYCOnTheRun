@@ -143,6 +143,7 @@
       border-radius: 20px !important; }
 
 .contact_wrapper {
+  background-image: url("/images/contact_background.jpg");
   vertical-align: top;
   width: 1440px;
   margin: 0 auto;

@@ -39,6 +39,16 @@
 		"oAP": "\/Gemfile.lock",
 		"oF": 0
 		},
+	"\/public\/images\/contact_background.jpg": {
+		"ft": 16384,
+		"iS": 900,
+		"oA": 0,
+		"oAP": "\/public\/images\/contact_background.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"\/public\/images\/header-photo.jpg": {
 		"ft": 16384,
 		"iS": 131064,

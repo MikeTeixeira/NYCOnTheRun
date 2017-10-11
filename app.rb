@@ -33,8 +33,8 @@ begin
 
   # puts "Venue: #{venue['name']}"
 
-# rescue Eventful::APIError => e
-#   puts "There was a problem with the API: #{e}"
+rescue Eventful::APIError => e
+  puts "There was a problem with the API: #{e}"
 end
 
 before do 
@@ -53,6 +53,9 @@ get "/" do
   $dates = $newevent["events"]["event"].map{|event_date| event_date["start_time"]}
   $titles = $newevent["events"]["event"].map{|event_title| event_title["title"]}
   $venue_address = $newevent["events"]["event"].map{|venue_address| venue_address["venue_address"]}
+  $url = $newevent["events"]["event"].reject do |event| 
+    !event["image"] || !event["image"]["small"] || !event["image"]["small"]["url"]
+  end.map{|event| event["image"]["small"]["url"] }
 
   @class = "home"       
   erb :home
@@ -79,6 +82,10 @@ end
 
 get "/images" do
  erb :images
+end
+
+get "/map" do
+ erb :map
 end
 
 get "/runners_blog" do

@@ -73,6 +73,17 @@
 		"opt": 0,
 		"q": 100
 		},
+	"\/public\/images\/flag-vector.png": {
+		"ft": 32768,
+		"iS": 38175,
+		"oA": 0,
+		"oAP": "\/public\/images\/flag-vector.png",
+		"oF": 0,
+		"oIPL": 1,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
 	"\/public\/images\/header-photo.jpg": {
 		"ft": 16384,
 		"iS": 131064,
@@ -102,6 +113,17 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
+		"q": 100
+		},
+	"\/public\/images\/running-vector.png": {
+		"ft": 32768,
+		"iS": 1151,
+		"oA": 0,
+		"oAP": "\/public\/images\/running-vector.png",
+		"oF": 0,
+		"oIPL": 1,
+		"opt": 1,
+		"oT": 1,
 		"q": 100
 		},
 	"\/public\/main-min.js": {
@@ -147,12 +169,6 @@
 		"oS": 0,
 		"uL": 1
 		},
-	"\/views\/blogs.erb": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/views\/blogs.erb",
-		"oF": 0
-		},
 	"\/views\/contact.erb": {
 		"ft": 8192,
 		"oA": 2,
@@ -181,6 +197,12 @@
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/views\/layout.erb",
+		"oF": 0
+		},
+	"\/views\/map.erb": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/views\/map.erb",
 		"oF": 0
 		},
 	"\/views\/nav.erb": {

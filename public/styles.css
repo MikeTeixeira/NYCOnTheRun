@@ -75,13 +75,14 @@ footer {
     text-transform: uppercase; }
   .wrapper td {
     padding: 5px; }
-  .wrapper .event_time {
+  .wrapper tr.event_title {
+    padding-bottom: 5px; }
+  .wrapper td.event_time {
     background-color: #2B0E02;
     color: white;
     width: 130px;
-    font-size: 1.1em; }
-  .wrapper .event_title {
-    padding-bottom: 5px; }
+    font-size: 1.4em;
+    text-align: center; }
 
 .left-col {
   width: 40%;

@@ -107,14 +107,15 @@ footer {
 	td {
 		padding: 5px;
 	}
-	.event_time {
+	tr.event_title {
+		padding-bottom: 5px;
+	}
+	td.event_time {
 		background-color: $dark-brown;
 		color: white;
 		width: 130px;
-		font-size: 1.1em;
-	}
-	.event_title {
-		padding-bottom: 5px;
+		font-size: 1.4em;
+		text-align: center;
 	}
 }
 

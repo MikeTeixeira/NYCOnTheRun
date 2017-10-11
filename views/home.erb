@@ -2,7 +2,7 @@
  <img class="header-photo" src="../images/running-header.jpg">
 
 <header class="header-content">
-  <h1>Marathon Guide | New York</h1>
+  <h1>Runner's Guide | New York</h1>
   <p>Find a race around your area now.</p>
 </header>
 
@@ -13,9 +13,9 @@
 <table>
   <% $event.each do |event| %>
   <tr>
-    <td class="event_time"><%= "#{event["start_time"]}" %></td>
+    <td class="event_time"><%= "#{event["start_time"].strftime("%m/%d/%y")}" %></td>
     <td class="event_title"><a href=<%="#{event["url"]}"%> > <%= "#{event["title"]}" %> </a> <br>
-      <%= "#{event["venue_address"]}, #{event["region_name"]} #{event["postal_code"]}" %><hr></td>   
+      <%= "#{event["venue_address"]}, #{event["region_name"]} #{event["postal_code"]}" %></td>   
   </tr> 
   <% end %>
 </table>

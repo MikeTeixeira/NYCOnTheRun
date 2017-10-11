@@ -80,8 +80,9 @@ post "/contact" do
   # puts response.headers
 end
 
-get "/images" do
- erb :images
+get "/runners" do
+  @class = "runners"
+ erb :runners
 end
 
 get "/map" do

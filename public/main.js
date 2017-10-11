@@ -5,14 +5,7 @@ document.addEventListener("DOMContentLoaded", function(){
 
   if( elRaceButton ) {
 	  elRaceButton.addEventListener("click", function(){
-
-	    if(elModal.style.display === "none"){
-	       elModal.style.display = "block";
-	    } else {
-	      elModal.style.display = "none";
-	    }
-
-	  });
-	}	
-
+    elModal.classList.add("ease_in");
+  });
 });
+

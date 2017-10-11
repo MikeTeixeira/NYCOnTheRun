@@ -63,6 +63,46 @@
 		"opt": 0,
 		"q": 100
 		},
+	"\/public\/images\/athlete_1.jpg": {
+		"ft": 16384,
+		"iS": 74227,
+		"oA": 0,
+		"oAP": "\/public\/images\/athlete_1.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"\/public\/images\/athlete_2.jpg": {
+		"ft": 16384,
+		"iS": 52438,
+		"oA": 0,
+		"oAP": "\/public\/images\/athlete_2.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"\/public\/images\/athlete_3.jpg": {
+		"ft": 16384,
+		"iS": 67847,
+		"oA": 0,
+		"oAP": "\/public\/images\/athlete_3.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"\/public\/images\/athlete_4.jpg": {
+		"ft": 16384,
+		"iS": 81256,
+		"oA": 0,
+		"oAP": "\/public\/images\/athlete_4.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
 	"\/public\/images\/contact_background.jpg": {
 		"ft": 16384,
 		"iS": 900,
@@ -187,12 +227,6 @@
 		"oAP": "\/views\/home.erb",
 		"oF": 0
 		},
-	"\/views\/images.erb": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/views\/images.erb",
-		"oF": 0
-		},
 	"\/views\/layout.erb": {
 		"ft": 8192,
 		"oA": 2,
@@ -209,6 +243,12 @@
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/views\/nav.erb",
+		"oF": 0
+		},
+	"\/views\/runners.erb": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/views\/runners.erb",
 		"oF": 0
 		}
 	},

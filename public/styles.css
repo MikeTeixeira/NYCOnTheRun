@@ -1,8 +1,9 @@
+
 * {
   margin: 0;
   padding: 0; }
 
-.home {
+.body {
   color: black;
   background-color: #2B2006;
   font-family: "Mukta", sans-serif;
@@ -10,7 +11,7 @@
   padding: 20px 50px; }
 
 .nav {
-  width: 100%;
+  width: 1240px;
   top: 0;
   background-color: #CFA50E;
   padding: 20px 50px;
@@ -21,15 +22,18 @@
   font-size: 1.5em;
   z-index: 3;
   font-family: "Mukta", sans-serif; }
-  .nav li {
-    display: inline-block; }
-  .nav a {
-    padding: 5px 35px;
-    color: #2B0E02;
-    font-weight: bold;
-    text-decoration: none; }
-  .nav a:hover {
-    background-color: white; }
+  .nav ul {
+    width: 800px;
+    margin: 0 auto; }
+    .nav ul li {
+      display: inline-block; }
+    .nav ul a {
+      padding: 5px 35px;
+      color: #2B0E02;
+      font-weight: bold;
+      text-decoration: none; }
+    .nav ul a:hover {
+      background-color: white; }
 
 .home footer {
   clear: both;
@@ -54,7 +58,7 @@
 .wrapper {
   padding: 30px;
   padding-bottom: 70px;
-  width: 95%;
+  width: 1280px;
   height: 800px;
   background-color: #E5F4FD; }
   .wrapper h2 {
@@ -109,6 +113,11 @@ table {
   height: 500px;
   width: 90%; }
 
+.modal.ease_in {
+  transform: translateY(0);
+  transition-timing-function: ease-in;
+  transition: 0.2s; }
+
 .ease_in {
   transition: all 600ms cubic-bezier(0.39, 0.575, 0.565, 1); }
 
@@ -117,10 +126,11 @@ table {
 
 .modal {
   z-index: 1;
-  display: none;
+  transform: translateY(-140%);
   position: absolute;
   left: 0;
   right: 0;
+  margin-top: 130px;
   margin-left: auto;
   margin-right: auto;
   width: 990px;
@@ -171,7 +181,7 @@ table {
     width: 600px; }
     .modal .video_wrapper iframe {
       position: relative;
-      left: 380px;
+      left: 390px;
       bottom: 515px;
       width: 600px;
       height: 514px;
@@ -199,20 +209,75 @@ table {
       top: 30%;
       left: 15%;
       color: white; }
+      .contact_wrapper .left_contact .left_inner_content h1 {
+        font-size: 60px; }
+      .contact_wrapper .left_contact .left_inner_content #race_button {
+        border: none;
+        outline: none;
+        background: transparent;
+        margin: 30px;
+        font-size: 20px;
+        color: white;
+        transition: all .3s ease-in-out;
+        color: #FEF7DD; }
+      .contact_wrapper .left_contact .left_inner_content #race_button:hover {
+        transform: scale(1.2); }
   .contact_wrapper .right_contact {
-    color: white;
     position: absolute;
-    width: 600px;
+    width: 650px;
+    height: 450px;
     left: 700px;
-    top: 260px; }
+    top: 260px;
+    background-color: rgba(43, 14, 2, 0.6);
+    border-radius: 10px; }
     .contact_wrapper .right_contact .contact_input {
       display: block;
       margin-top: 50px;
       margin-left: auto;
       margin-right: auto;
       outline: none;
-      font-size: 30px;
+      font-size: 50px;
       border: 0;
       position: relative;
       border-bottom: 1px solid black;
-      background-color: transparent; }
+      background-color: transparent;
+      color: #FEF7DD; }
+    .contact_wrapper .right_contact input::placeholder {
+      color: #FEF7DD; }
+    .contact_wrapper .right_contact #contact_submit {
+      margin-top: 40px;
+      margin-left: 485px;
+      background-color: #2B0E02;
+      color: white;
+      border: 0;
+      font-size: 20px;
+      outline: 0;
+      border-style: none;
+      border-radius: 10px;
+      padding-left: 15px;
+      padding-right: 10px;
+      letter-spacing: .2em; }
+
+.runner_wrapper {
+  margin-top: 200px;
+  position: absolute; }
+  .runner_wrapper .athlete_info {
+    width: 300px;
+    position: relative;
+    left: 100px; }
+  .runner_wrapper .athletes {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 950px;
+    left: 450px;
+    bottom: 200px; }
+    .runner_wrapper .athletes .row {
+      width: 280px;
+      flex: 1;
+      margin-top: 10px; }
+      .runner_wrapper .athletes .row img {
+        width: 250px;
+        height: 250px; }

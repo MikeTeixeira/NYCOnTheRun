@@ -1,6 +1,5 @@
 require 'sinatra'
 require 'eventful/api'
-
 require 'dotenv/load'
 require 'sendgrid-ruby'
 
@@ -38,7 +37,9 @@ begin
 #   puts "There was a problem with the API: #{e}"
 end
 
-
+before do 
+  @class = ""
+end
 
 
 get "/" do  
@@ -52,11 +53,13 @@ get "/" do
   $dates = $newevent["events"]["event"].map{|event_date| event_date["start_time"]}
   $titles = $newevent["events"]["event"].map{|event_title| event_title["title"]}
   $venue_address = $newevent["events"]["event"].map{|venue_address| venue_address["venue_address"]}
-        
+
+  @class = "home"       
   erb :home
 end
 
 get "/contact" do
+  @class = "contact"
  erb :contact
 end
 

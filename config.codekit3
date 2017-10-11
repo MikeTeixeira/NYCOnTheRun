@@ -9,6 +9,12 @@
 	],
 "creatorBuild": "25849",
 "files": {
+	"\/.env": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/.env",
+		"oF": 0
+		},
 	"\/.gitignore": {
 		"ft": 8192,
 		"oA": 2,
@@ -64,15 +70,23 @@
 		"opt": 0,
 		"q": 100
 		},
-	"\/public\/styles-min.css": {
-		"aP": 1,
-		"bl": 0,
-		"ft": 16,
-		"ma": 0,
+	"\/public\/main-min.js": {
+		"ft": 64,
+		"mi": 1,
 		"oA": 0,
-		"oAP": "\/public\/styles-min-min.css",
+		"oAP": "\/public\/main-min-min.js",
 		"oF": 0,
-		"oS": 3
+		"sC": 0,
+		"tS": 0
+		},
+	"\/public\/main.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/public\/main-min.js",
+		"oF": 0,
+		"sC": 0,
+		"tS": 0
 		},
 	"\/public\/styles.css": {
 		"aP": 1,
@@ -1923,7 +1937,7 @@
 		"autoOutputPathStyle": 0,
 		"createSourceMap": 0,
 		"minifyOutput": 1,
-		"syntaxCheckerStyle": 1,
+		"syntaxCheckerStyle": 0,
 		"transpilerStyle": 0
 		},
 	"languageDefaultsJSON": {

@@ -46,7 +46,7 @@
 		"oAP": "\/public\/images\/article1.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 1,
+		"opt": 0,
 		"q": 100
 		},
 	"\/public\/images\/article2.jpg": {
@@ -56,7 +56,7 @@
 		"oAP": "\/public\/images\/article2.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 1,
+		"opt": 0,
 		"q": 100
 		},
 	"\/public\/images\/article3.jpg": {
@@ -64,6 +64,16 @@
 		"iS": 33952,
 		"oA": 0,
 		"oAP": "\/public\/images\/article3.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/public\/images\/contact_background.jpg": {
+		"ft": 16384,
+		"iS": 900,
+		"oA": 0,
+		"oAP": "\/public\/images\/contact_background.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
@@ -130,7 +140,7 @@
 		},
 	"\/public\/styles.scss": {
 		"aP": 0,
-		"bl": 1,
+		"bl": 0,
 		"dP": 10,
 		"dS": 0,
 		"ft": 4,

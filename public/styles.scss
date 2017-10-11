@@ -49,7 +49,7 @@ $sans-serif-font: 'Mukta', sans-serif;
 	}
 }
 
-footer {
+.home footer {
 	clear: both;
 	background-color: $dark-brown;
 	height: 300px;
@@ -232,16 +232,19 @@ table {
 
 .contact_wrapper{
   background-image: url("/images/contact_background.jpg");
+  background-size: cover;
   vertical-align: top;
   width: 1440px;
-  margin: 0 auto;
+  height: 800px;
+  margin-top: 80px;
+  margin-left: auto;
+  margin-right: auto;
   background-color: $peach;
   font-family: $sans-serif-font;
-  margin-top: 200px;
   .left_contact {
-    position:relative;
-    left: 100px;
-    width: 400px;
+    position: relative;
+    height: 700px;
+    width: 600px;
   }
   .right_contact {
     background-color: rgba(0, 0, 0, 0.3);

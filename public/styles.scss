@@ -152,9 +152,16 @@ table {
  
 }
 
-.ease_out {
+// Map page
 
-}
+ #map {
+  position: fixed;
+  top: 80px;
+  height: 500px;
+  width: 90%;
+ }
+
+//--------CONTACTPAGE---------//
 
 .contact {
   background-color: $peach;

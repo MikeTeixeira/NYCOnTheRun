@@ -1,0 +1,79 @@
+
+
+<div id="map"></div>
+
+<div>
+	<h1>Races in your area</h1>
+
+</div>
+
+<script>
+	function initMap() {
+		var options = {
+			zoom: 11,
+			center: {lat: 40.7128, lng: -74.0060}
+		}
+
+		// Open google maps
+		var map = new google.maps.Map(document.getElementById('map'), options);
+
+		// All markers
+		var markers = [
+			{lat: 40.764938,
+			 lng: -73.979897,
+			 content: "ASSSSCAT with the Upright Citizens Brigade Live at Carnegie Hall"},
+			{lat: 40.7828647,
+			  lng: -73.96535510000001,
+			  content: "NYRR Midnight Run"},
+			{lat: 40.7828647,
+			  lng: -73.96535510000001,
+			  content: "NYCRUNS Big Apple Half Marathon"},
+			{lat: 40.7828647,
+			  lng: -73.96535510000001,
+			  content: "NYRR Ted Corbitt 15K"},
+			{lat: 40.638573,
+			  lng: -74.03574989999998,
+			  content: "The Holiday Half Marathon!"},
+			{lat: 40.8162263,
+			  lng: -74.22022849999996,
+			  content: "Run Your World Tour - Montclair"},
+			{lat: 40.7437517,
+			  lng: -74.02930579999997,
+			  content: "Run Your World Tour - Hoboken"},
+			{lat: 40.6731752,
+			  lng: -73.947404,
+			  content: "Goodwill at the 2017 NYC Marathon"},
+			{lat: 40.8156051,
+			  lng: -74.20710710000003,
+			  content: "ERC New York City Marathon Bus 2017"}
+		];
+
+		// Go through each marker
+		markers.forEach( marker => addMarker(marker) )
+
+		// Function to add markers
+		function addMarker(options) {
+			var marker = new google.maps.Marker({
+			position: {lat: options.lat, lng: options.lng},
+			map: map,
+			icon: '/images/running-vector.png',
+			});
+
+			// Shows info for marker
+			marker.addListener("click", function() {
+				if (options.content) {
+					var infoWindow = new google.maps.InfoWindow({
+						content: `<h3>${options.content}</h3>`
+					});
+					infoWindow.open(map, marker);
+				}
+			});
+		}
+	}
+
+</script>
+
+<script async defer
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBDM0L5rzpW0d1E60mX58xQackfn69pOmc&callback=initMap">
+</script>
+

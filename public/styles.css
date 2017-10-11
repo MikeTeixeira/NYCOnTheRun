@@ -103,19 +103,23 @@ table {
     width: 300px;
     height: 220px; }
 
-<<<<<<< HEAD
 .footer {
   clear: both;
   padding: 0 20px; }
+
+#map {
+  position: fixed;
+  top: 80px;
+  height: 500px;
+  width: 90%; }
 
 .modal.ease_in {
   transform: translateY(0);
   transition-timing-function: ease-in;
   transition: 0.2s; }
-=======
+
 .ease_in {
   transition: all 600ms cubic-bezier(0.39, 0.575, 0.565, 1); }
->>>>>>> d041f15d8d1c95c9ace7700392b864c1d7fe910e
 
 .contact {
   background-color: #FEF7DD; }

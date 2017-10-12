@@ -57,6 +57,8 @@ get "/" do
     !event["image"] || !event["image"]["small"] || !event["image"]["small"]["url"]
   end.map{|event| event["image"]["small"]["url"] }
 
+  puts $newevent
+
   @class = "home"       
   erb :home
 end
@@ -86,6 +88,7 @@ get "/runners" do
 end
 
 get "/map" do
+  @class = "map"
  erb :map
 end
 

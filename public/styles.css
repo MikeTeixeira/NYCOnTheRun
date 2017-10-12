@@ -340,26 +340,62 @@ table {
       padding-right: 10px;
       letter-spacing: .2em; }
 
+.runners-block {
+  height: 830px;
+  width: 100%; }
+
+.runners {
+  height: 800px;
+  background-color: #FEF7DD; }
+
 .runner_wrapper {
-  margin-top: 200px;
-  position: absolute; }
-  .runner_wrapper .athlete_info {
-    width: 300px;
+  margin-top: 80px;
+  width: 1440px;
+  position: absolute;
+  height: 600px; }
+  .runner_wrapper .athlete_info_wrapper {
     position: relative;
-    left: 100px; }
+    background-color: rgba(0, 0, 0, 0.8);
+    height: 750px;
+    width: 500px; }
+    .runner_wrapper .athlete_info_wrapper .athlete_info {
+      width: 400px;
+      position: relative;
+      top: 30%;
+      left: 13%;
+      color: white;
+      font-family: "Mukta", sans-serif; }
+      .runner_wrapper .athlete_info_wrapper .athlete_info h1 {
+        font-size: 60px;
+        padding: 20px; }
+      .runner_wrapper .athlete_info_wrapper .athlete_info p {
+        padding: 20px;
+        border-bottom: 3px solid white; }
   .runner_wrapper .athletes {
     position: relative;
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
     justify-content: space-evenly;
-    width: 950px;
-    left: 450px;
-    bottom: 200px; }
+    width: 900px;
+    left: 550px;
+    bottom: 700px; }
     .runner_wrapper .athletes .row {
       width: 280px;
       flex: 1;
       margin-top: 10px; }
       .runner_wrapper .athletes .row img {
-        width: 250px;
-        height: 250px; }
+        width: 275px;
+        height: 300px; }
+      .runner_wrapper .athletes .row .at_data_container {
+        position: relative;
+        bottom: 53px;
+        width: 275px;
+        height: 50px;
+        overflow: hidden;
+        color: white;
+        background-color: rgba(0, 0, 0, 0.6); }
+        .runner_wrapper .athletes .row .at_data_container .at_data {
+          position: relative;
+          top: 8px;
+          left: 10px; }

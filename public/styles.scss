@@ -26,23 +26,11 @@ $sans-serif-font: 'Mukta', sans-serif;
 
 .nav {
   width: 1440px;
-<<<<<<< HEAD
-<<<<<<< HEAD
-  top: 0;
-  background-color: $orange;
-  padding: 20px 50px;
-=======
-=======
->>>>>>> ce1ab5d0691076bfede0dbd6e7cd59e0267c9ed9
   padding-left: 0;
   margin-left: 0;
   top: 0;
   background-color: $orange;
   padding: 20px;
-<<<<<<< HEAD
->>>>>>> b01feb2ae9e7a87e083ee650c67d089c6de63fb3
-=======
->>>>>>> ce1ab5d0691076bfede0dbd6e7cd59e0267c9ed9
   position: fixed;
   text-transform: uppercase;
   text-decoration: none;
@@ -52,52 +40,21 @@ $sans-serif-font: 'Mukta', sans-serif;
   font-family: $sans-serif-font;
 
   ul{
-
-    width: 900px;
+    width: 1200px;
     margin: 0 auto;
-
     li {
       display: inline-block;
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
       font-weight: bold;
->>>>>>> b01feb2ae9e7a87e083ee650c67d089c6de63fb3
-=======
-      font-weight: bold;
-
->>>>>>> ce1ab5d0691076bfede0dbd6e7cd59e0267c9ed9
-    }
-
-    a{
-      padding: 5px 35px;
-      color: $dark-brown;
-      font-weight: bold;
-<<<<<<< HEAD
-<<<<<<< HEAD
-      transition: all .5s ease-in-out;
-      text-decoration: none;
-      border-bottom: none;
-    }
-    a:hover {
-      transform: scale(1.2);
-      border-bottom: 2px solid white;
     }
   }
 }
-=======
->>>>>>> ce1ab5d0691076bfede0dbd6e7cd59e0267c9ed9
+
 
 .home footer {
   clear: both;
   background-color: $dark-brown;
   height: 300px;
-<<<<<<< HEAD
-=======
-      text-decoration: none;
-=======
   text-decoration: none;
->>>>>>> ce1ab5d0691076bfede0dbd6e7cd59e0267c9ed9
     }
   a {
     color: $dark-brown;
@@ -145,10 +102,6 @@ $sans-serif-font: 'Mukta', sans-serif;
   button:hover {
     background-color: $orange;
   }
-<<<<<<< HEAD
->>>>>>> b01feb2ae9e7a87e083ee650c67d089c6de63fb3
-=======
->>>>>>> ce1ab5d0691076bfede0dbd6e7cd59e0267c9ed9
 }
 
 // Home page
@@ -182,9 +135,6 @@ $sans-serif-font: 'Mukta', sans-serif;
   width: 1280px;
   height: 800px;
   margin: 0 auto;
-=======
-=======
->>>>>>> ce1ab5d0691076bfede0dbd6e7cd59e0267c9ed9
   padding-left: 35px;
   margin-top: 85px;
   width: 1340px;
@@ -199,11 +149,6 @@ $sans-serif-font: 'Mukta', sans-serif;
   padding: 30px;
   padding-bottom: 80px;
   margin-bottom: 20px;
-<<<<<<< HEAD
->>>>>>> b01feb2ae9e7a87e083ee650c67d089c6de63fb3
-=======
-
->>>>>>> ce1ab5d0691076bfede0dbd6e7cd59e0267c9ed9
   background-color: $blue;
   h2 {
     padding-left: 10px;
@@ -220,29 +165,14 @@ $sans-serif-font: 'Mukta', sans-serif;
     background-color: $dark-brown;
     color: white;
     width: 130px;
-<<<<<<< HEAD
-<<<<<<< HEAD
-    font-size: 1.4em;
-=======
     font-size: 1.1em;
->>>>>>> b01feb2ae9e7a87e083ee650c67d089c6de63fb3
-=======
-    font-size: 1.1em;
->>>>>>> ce1ab5d0691076bfede0dbd6e7cd59e0267c9ed9
     text-align: center;
   }
 }
 
 .left-col {
   width: 40%;
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
   height: 800px;
->>>>>>> b01feb2ae9e7a87e083ee650c67d089c6de63fb3
-=======
-  height: 800px;
->>>>>>> ce1ab5d0691076bfede0dbd6e7cd59e0267c9ed9
   margin-right: 25px;
   position: relative;
   background-color: white;
@@ -256,14 +186,7 @@ $sans-serif-font: 'Mukta', sans-serif;
 
 .right-col {
   width: 51.3%;
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
   height: 800px;
->>>>>>> b01feb2ae9e7a87e083ee650c67d089c6de63fb3
-=======
-  height: 800px;
->>>>>>> ce1ab5d0691076bfede0dbd6e7cd59e0267c9ed9
   background-color: $peach;
   position: relative;
   float: left;

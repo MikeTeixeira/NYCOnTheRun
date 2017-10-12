@@ -4,8 +4,9 @@ document.addEventListener("DOMContentLoaded", function(){
   let elRaceButton = document.querySelector("#race_button");
 
 	  elRaceButton.addEventListener("click", function(){
-    elModal.classList.add("ease_in");
+      elModal.classList.add("ease_in");
       });
-  });
+
 });
+
 

@@ -42,6 +42,7 @@
       color: #CFA50E;
       background-color: white; }
 
+
 .footer {
   clear: both;
   background-color: #2B0E02;
@@ -91,6 +92,7 @@
   width: 1340px;
   height: 450px;
   text-align: center; }
+
 
 .wrapper {
   margin: 0 auto;
@@ -143,11 +145,11 @@ table {
     float: left;
     width: 300px;
     height: 220px; }
-
 .modal.ease_in {
   transform: translateY(0);
   transition-timing-function: ease-in;
   transition: 0.2s; }
+
 
 #map {
   position: fixed;
@@ -343,7 +345,6 @@ table {
 .runners-block {
   height: 830px;
   width: 100%; }
-
 .runners {
   height: 800px;
   background-color: #FEF7DD; }

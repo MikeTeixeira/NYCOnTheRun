@@ -33,139 +33,6 @@
 		"oAP": "\/Gemfile.lock",
 		"oF": 0
 		},
-	"\/public\/images\/article1.jpg": {
-		"ft": 16384,
-		"iS": 74064,
-		"oA": 0,
-		"oAP": "\/public\/images\/article1.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"\/public\/images\/article2.jpg": {
-		"ft": 16384,
-		"iS": 17921,
-		"oA": 0,
-		"oAP": "\/public\/images\/article2.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"\/public\/images\/article3.jpg": {
-		"ft": 16384,
-		"iS": 33952,
-		"oA": 0,
-		"oAP": "\/public\/images\/article3.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"\/public\/images\/athlete_1.jpg": {
-		"ft": 16384,
-		"iS": 73003,
-		"oA": 0,
-		"oAP": "\/public\/images\/athlete_1.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"\/public\/images\/athlete_2.jpg": {
-		"ft": 16384,
-		"iS": 29067,
-		"oA": 0,
-		"oAP": "\/public\/images\/athlete_2.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"\/public\/images\/athlete_3.jpg": {
-		"ft": 16384,
-		"iS": 41573,
-		"oA": 0,
-		"oAP": "\/public\/images\/athlete_3.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"\/public\/images\/athlete_4.jpg": {
-		"ft": 16384,
-		"iS": 78038,
-		"oA": 0,
-		"oAP": "\/public\/images\/athlete_4.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"\/public\/images\/athlete_4.png": {
-		"ft": 32768,
-		"iS": 196538,
-		"oA": 0,
-		"oAP": "\/public\/images\/athlete_4.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"\/public\/images\/athlete_5.jpg": {
-		"ft": 16384,
-		"iS": 34385,
-		"oA": 0,
-		"oAP": "\/public\/images\/athlete_5.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"\/public\/images\/contact_background.jpg": {
-		"ft": 16384,
-		"iS": 4868738,
-		"oA": 0,
-		"oAP": "\/public\/images\/contact_background.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"\/public\/images\/flag-vector.png": {
-		"ft": 32768,
-		"iS": 1997,
-		"oA": 0,
-		"oAP": "\/public\/images\/flag-vector.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"\/public\/images\/running-header.jpg": {
-		"ft": 16384,
-		"iS": 96715,
-		"oA": 0,
-		"oAP": "\/public\/images\/running-header.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"\/public\/images\/running-vector.png": {
-		"ft": 32768,
-		"iS": 1324,
-		"oA": 0,
-		"oAP": "\/public\/images\/running-vector.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
 	"\/public\/main-min.js": {
 		"ft": 64,
 		"ma": 0,
@@ -208,6 +75,12 @@
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
+		},
+	"\/views\/2.zip": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/views\/2.zip",
+		"oF": 0
 		},
 	"\/views\/contact.erb": {
 		"ft": 8192,

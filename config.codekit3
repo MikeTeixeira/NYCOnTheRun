@@ -7,14 +7,8 @@
 		"uuidString": "99C4CB40-26C8-4AB6-B968-4EAE2F2C92E5"
 		}
 	],
-"creatorBuild": "25849",
+"creatorBuild": "25900",
 "files": {
-	"\/.env": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/.env",
-		"oF": 0
-		},
 	"\/.gitignore": {
 		"ft": 8192,
 		"oA": 2,
@@ -39,138 +33,48 @@
 		"oAP": "\/Gemfile.lock",
 		"oF": 0
 		},
-	"\/public\/images\/article1.jpg": {
-		"ft": 16384,
-		"iS": 74064,
+	"\/public\/main-min.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
 		"oA": 0,
-		"oAP": "\/public\/images\/article1.jpg",
+		"oAP": "\/public\/main-min-min.js",
 		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
+		"sC": 0,
+		"tS": 0
 		},
-	"\/public\/images\/article2.jpg": {
-		"ft": 16384,
-		"iS": 17921,
+	"\/public\/main.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
 		"oA": 0,
-		"oAP": "\/public\/images\/article2.jpg",
+		"oAP": "\/public\/main-min.js",
 		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
+		"sC": 3,
+		"tS": 0
 		},
-	"\/public\/images\/article3.jpg": {
-		"ft": 16384,
-		"iS": 33952,
+	"\/public\/styles.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
 		"oA": 0,
-		"oAP": "\/public\/images\/article3.jpg",
+		"oAP": "\/public\/styles-min.css",
 		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
+		"oS": 3
 		},
-	"\/public\/images\/athlete_1.jpg": {
-		"ft": 16384,
-		"iS": 74227,
+	"\/public\/styles.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
 		"oA": 0,
-		"oAP": "\/public\/images\/athlete_1.jpg",
+		"oAP": "\/public\/styles.css",
 		"oF": 0,
-		"oIPL": 0,
-		"opt": 1,
-		"q": 100
-		},
-	"\/public\/images\/athlete_2.jpg": {
-		"ft": 16384,
-		"iS": 52438,
-		"oA": 0,
-		"oAP": "\/public\/images\/athlete_2.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 1,
-		"q": 100
-		},
-	"\/public\/images\/athlete_3.jpg": {
-		"ft": 16384,
-		"iS": 67847,
-		"oA": 0,
-		"oAP": "\/public\/images\/athlete_3.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 1,
-		"q": 100
-		},
-	"\/public\/images\/athlete_4.jpg": {
-		"ft": 16384,
-		"iS": 81256,
-		"oA": 0,
-		"oAP": "\/public\/images\/athlete_4.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 1,
-		"q": 100
-		},
-	"\/public\/images\/athlete_4.png": {
-		"ft": 32768,
-		"iS": 196538,
-		"oA": 0,
-		"oAP": "\/public\/images\/athlete_4.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"\/public\/images\/athlete_5.jpg": {
-		"ft": 16384,
-		"iS": 35133,
-		"oA": 0,
-		"oAP": "\/public\/images\/athlete_5.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"\/public\/images\/contact_background.jpg": {
-		"ft": 16384,
-		"iS": 900,
-		"oA": 0,
-		"oAP": "\/public\/images\/contact_background.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"\/public\/images\/flag-vector.png": {
-		"ft": 32768,
-		"iS": 38175,
-		"oA": 0,
-		"oAP": "\/public\/images\/flag-vector.png",
-		"oF": 0,
-		"oIPL": 1,
-		"opt": 1,
-		"oT": 1,
-		"q": 100
-		},
-	"\/public\/images\/running-header.jpg": {
-		"ft": 16384,
-		"iS": 96715,
-		"oA": 0,
-		"oAP": "\/public\/images\/running-header.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"\/public\/images\/running-vector.png": {
-		"ft": 32768,
-		"iS": 1151,
-		"oA": 0,
-		"oAP": "\/public\/images\/running-vector.png",
-		"oF": 0,
-		"oIPL": 1,
-		"opt": 1,
-		"oT": 1,
-		"q": 100
+		"oS": 0,
+		"uL": 1
 		},
 	"\/views\/contact.erb": {
 		"ft": 8192,
@@ -221,7 +125,7 @@
 	},
 "projectAttributes": {
 	"creationDate": 529336625,
-	"displayValue": "running_usa",
+	"displayValue": "fitness_business_website",
 	"displayValueWasSetByUser": 0,
 	"iconImageName": "meme-punDog"
 	},
@@ -627,6 +531,10 @@
 			"active": 0,
 			"optionString": "{'setWithoutGet': true, 'getWithoutSet': false}"
 			},
+		"array-bracket-newline": {
+			"active": 0,
+			"optionString": "{'multiline': true, 'minItems': null}"
+			},
 		"array-bracket-spacing": {
 			"active": 0,
 			"optionString": "'never', {'singleValue': false, 'objectsInArrays': false, 'arraysInArrays': false}"
@@ -634,6 +542,10 @@
 		"array-callback-return": {
 			"active": 0,
 			"optionString": ""
+			},
+		"array-element-newline": {
+			"active": 0,
+			"optionString": "'always'"
 			},
 		"arrow-body-style": {
 			"active": 0,
@@ -731,6 +643,10 @@
 			"active": 0,
 			"optionString": "'always', {'null': 'always'}"
 			},
+		"for-direction": {
+			"active": 0,
+			"optionString": ""
+			},
 		"func-call-spacing": {
 			"active": 0,
 			"optionString": "'never'"
@@ -750,6 +666,10 @@
 		"generator-star-spacing": {
 			"active": 0,
 			"optionString": "{'before': true, 'after': false}"
+			},
+		"getter-return": {
+			"active": 0,
+			"optionString": "{'allowImplicit': false}"
 			},
 		"global-require": {
 			"active": 0,
@@ -879,6 +799,10 @@
 			"active": 0,
 			"optionString": "{'allow': ['~'], 'int32Hint': true}"
 			},
+		"no-buffer-constructor": {
+			"active": 0,
+			"optionString": ""
+			},
 		"no-caller": {
 			"active": 0,
 			"optionString": ""
@@ -1005,7 +929,7 @@
 			},
 		"no-extra-parens": {
 			"active": 0,
-			"optionString": "'all', {'conditionalAssign': false, 'returnAssign': false, 'nestedBinaryExpressions': false, 'ignoreJSX': 'none'}"
+			"optionString": "'all', {'conditionalAssign': false, 'returnAssign': false, 'nestedBinaryExpressions': false, 'ignoreJSX': 'none', 'enforceForArrowConditionals': false}"
 			},
 		"no-extra-semi": {
 			"active": 1,
@@ -1253,7 +1177,7 @@
 			},
 		"no-sync": {
 			"active": 0,
-			"optionString": ""
+			"optionString": "{'allowAtRootLevel': false}"
 			},
 		"no-tabs": {
 			"active": 0,
@@ -1277,7 +1201,7 @@
 			},
 		"no-trailing-spaces": {
 			"active": 0,
-			"optionString": "{'skipBlankLines': false}"
+			"optionString": "{'skipBlankLines': false, 'ignoreComments': false}"
 			},
 		"no-undef": {
 			"active": 1,
@@ -1293,7 +1217,7 @@
 			},
 		"no-underscore-dangle": {
 			"active": 0,
-			"optionString": "{'allow': [], 'allowAfterThis': false, 'allowAfterSuper': false}"
+			"optionString": "{'allow': [], 'allowAfterThis': false, 'allowAfterSuper': false, 'enforceInMethodNames': false}"
 			},
 		"no-unexpected-multiline": {
 			"active": 1,
@@ -1423,6 +1347,10 @@
 			"active": 0,
 			"optionString": "{'blocks': 'always', 'switches': 'always', 'classes': 'always'}"
 			},
+		"padding-line-between-statements": {
+			"active": 0,
+			"optionString": "{blankLine: 'always', prev:'*', next:'return'}"
+			},
 		"prefer-arrow-callback": {
 			"active": 0,
 			"optionString": ""
@@ -1491,6 +1419,10 @@
 			"active": 0,
 			"optionString": "{'before': false, 'after': true}"
 			},
+		"semi-style": {
+			"active": 0,
+			"optionString": "'last'"
+			},
 		"sort-imports": {
 			"active": 0,
 			"optionString": "{'ignoreCase': false, 'ignoreMemberSort': true, 'memberSyntaxSortOrder': ['none', 'all', 'multiple', 'single']}"
@@ -1530,6 +1462,10 @@
 		"strict": {
 			"active": 0,
 			"optionString": "'safe'"
+			},
+		"switch-colon-spacing": {
+			"active": 0,
+			"optionString": "{'after': true, 'before': false}"
 			},
 		"symbol-description": {
 			"active": 0,
@@ -1998,7 +1934,7 @@
 		"autoOutputPathStyle": 0,
 		"createSourceMap": 0,
 		"minifyOutput": 1,
-		"syntaxCheckerStyle": 0,
+		"syntaxCheckerStyle": 3,
 		"transpilerStyle": 0
 		},
 	"languageDefaultsJSON": {
@@ -2163,6 +2099,7 @@
 	"previewPathAddition": "",
 	"skippedFoldersString": "log, _logs, logs, _cache, cache, \/storage\/framework\/sessions, node_modules",
 	"sourceFolderName": "source",
+	"susyVersion": 3,
 	"uglifyDefinesString": "",
 	"uglifyFlags2": {
 		"ascii-only": {

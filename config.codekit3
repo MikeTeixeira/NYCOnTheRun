@@ -109,6 +109,27 @@
 		"opt": 1,
 		"q": 100
 		},
+	"\/public\/images\/athlete_4.png": {
+		"ft": 32768,
+		"iS": 196538,
+		"oA": 0,
+		"oAP": "\/public\/images\/athlete_4.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/public\/images\/athlete_5.jpg": {
+		"ft": 16384,
+		"iS": 35133,
+		"oA": 0,
+		"oAP": "\/public\/images\/athlete_5.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
 	"\/public\/images\/contact_background.jpg": {
 		"ft": 16384,
 		"iS": 900,
@@ -117,6 +138,17 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
+		"q": 100
+		},
+	"\/public\/images\/flag-vector.png": {
+		"ft": 32768,
+		"iS": 38175,
+		"oA": 0,
+		"oAP": "\/public\/images\/flag-vector.png",
+		"oF": 0,
+		"oIPL": 1,
+		"opt": 1,
+		"oT": 1,
 		"q": 100
 		},
 	"\/public\/images\/header-photo.jpg": {
@@ -150,6 +182,17 @@
 		"opt": 0,
 		"q": 100
 		},
+	"\/public\/images\/running-vector.png": {
+		"ft": 32768,
+		"iS": 1151,
+		"oA": 0,
+		"oAP": "\/public\/images\/running-vector.png",
+		"oF": 0,
+		"oIPL": 1,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
 	"\/public\/main-min.js": {
 		"ft": 64,
 		"mi": 1,
@@ -180,7 +223,7 @@
 		},
 	"\/public\/styles.scss": {
 		"aP": 0,
-		"bl": 0,
+		"bl": 1,
 		"dP": 10,
 		"dS": 0,
 		"ft": 4,
@@ -190,12 +233,6 @@
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
-		},
-	"\/views\/blogs.erb": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/views\/blogs.erb",
-		"oF": 0
 		},
 	"\/views\/contact.erb": {
 		"ft": 8192,
@@ -219,6 +256,12 @@
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/views\/layout.erb",
+		"oF": 0
+		},
+	"\/views\/map.erb": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/views\/map.erb",
 		"oF": 0
 		},
 	"\/views\/nav.erb": {

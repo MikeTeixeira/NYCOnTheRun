@@ -13,8 +13,16 @@
 
 .nav {
   width: 1440px;
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
   padding-left: 0;
   margin-left: 0;
+>>>>>>> b01feb2ae9e7a87e083ee650c67d089c6de63fb3
+=======
+  padding-left: 0;
+  margin-left: 0;
+>>>>>>> ce1ab5d0691076bfede0dbd6e7cd59e0267c9ed9
   top: 0;
   background-color: #CFA50E;
   padding: 20px;
@@ -35,13 +43,28 @@
       padding: 5px 35px;
       color: #2B0E02;
       font-weight: bold;
+<<<<<<< HEAD
+<<<<<<< HEAD
+      transition: all .5s ease-in-out;
+      text-decoration: none;
+      border-bottom: none; }
+    .nav ul a:hover {
+      transform: scale(1.2);
+      border-bottom: 2px solid white; }
+=======
+=======
+>>>>>>> ce1ab5d0691076bfede0dbd6e7cd59e0267c9ed9
       text-decoration: none; }
     .nav ul a {
       color: #2B0E02; }
     .nav ul a:hover {
       color: #CFA50E;
       background-color: white; }
+<<<<<<< HEAD
+>>>>>>> b01feb2ae9e7a87e083ee650c67d089c6de63fb3
+=======
 
+>>>>>>> ce1ab5d0691076bfede0dbd6e7cd59e0267c9ed9
 
 .footer {
   clear: both;
@@ -87,20 +110,42 @@
     padding-left: 110px; }
 
 .header-photo {
+<<<<<<< HEAD
+<<<<<<< HEAD
+  width: 100%;
+  height: 400px;
+  margin-top: 80px; }
+=======
+=======
+>>>>>>> ce1ab5d0691076bfede0dbd6e7cd59e0267c9ed9
   padding-left: 35px;
   margin-top: 85px;
   width: 1340px;
   height: 450px;
   text-align: center; }
+<<<<<<< HEAD
+>>>>>>> b01feb2ae9e7a87e083ee650c67d089c6de63fb3
+=======
 
+>>>>>>> ce1ab5d0691076bfede0dbd6e7cd59e0267c9ed9
 
 .wrapper {
   margin: 0 auto;
   width: 1280px;
   height: 800px;
+<<<<<<< HEAD
+<<<<<<< HEAD
+  margin: 0 auto;
+=======
   padding: 30px;
   padding-bottom: 80px;
   margin-bottom: 20px;
+>>>>>>> b01feb2ae9e7a87e083ee650c67d089c6de63fb3
+=======
+  padding: 30px;
+  padding-bottom: 80px;
+  margin-bottom: 20px;
+>>>>>>> ce1ab5d0691076bfede0dbd6e7cd59e0267c9ed9
   background-color: #E5F4FD; }
   .wrapper h2 {
     padding-left: 10px;
@@ -145,12 +190,30 @@ table {
     float: left;
     width: 300px;
     height: 220px; }
+<<<<<<< HEAD
+
+<<<<<<< HEAD
+#map {
+  position: fixed;
+  top: 80px;
+  height: 500px;
+  width: 90%; }
+
+=======
+>>>>>>> b01feb2ae9e7a87e083ee650c67d089c6de63fb3
+=======
+>>>>>>> ce1ab5d0691076bfede0dbd6e7cd59e0267c9ed9
 .modal.ease_in {
   transform: translateY(0);
   transition-timing-function: ease-in;
   transition: 0.2s; }
 
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+=======
 
+>>>>>>> ce1ab5d0691076bfede0dbd6e7cd59e0267c9ed9
 #map {
   position: fixed;
   top: 85px;
@@ -205,6 +268,10 @@ table {
   .race-info .event_title {
     width: 200px; }
 
+<<<<<<< HEAD
+>>>>>>> b01feb2ae9e7a87e083ee650c67d089c6de63fb3
+=======
+>>>>>>> ce1ab5d0691076bfede0dbd6e7cd59e0267c9ed9
 .contact {
   background-color: #FEF7DD; }
 

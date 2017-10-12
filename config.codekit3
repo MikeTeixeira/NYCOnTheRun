@@ -15,12 +15,6 @@
 		"oAP": "\/.gitignore",
 		"oF": 0
 		},
-	"\/app.rb": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/app.rb",
-		"oF": 0
-		},
 	"\/Gemfile": {
 		"ft": 8192,
 		"oA": 2,
@@ -103,34 +97,10 @@
 		"oAP": "\/views\/contact.erb",
 		"oF": 0
 		},
-	"\/views\/footer.erb": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/views\/footer.erb",
-		"oF": 0
-		},
-	"\/views\/home.erb": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/views\/home.erb",
-		"oF": 0
-		},
 	"\/views\/layout.erb": {
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/views\/layout.erb",
-		"oF": 0
-		},
-	"\/views\/map.erb": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/views\/map.erb",
-		"oF": 0
-		},
-	"\/views\/nav.erb": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/views\/nav.erb",
 		"oF": 0
 		},
 	"\/views\/runners.erb": {

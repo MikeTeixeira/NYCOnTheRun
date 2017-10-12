@@ -2,8 +2,31 @@
 
 <div id="map"></div>
 
-<div>
-	<h1>Races in your area</h1>
+<div class="map-content">
+	<h1>Upcoming Races</h1>
+
+  <table class="race-info" border="1">
+  	<tr>
+  		<th>Date</th>
+  		<th>Time</th>
+  		<th>Title</th>
+  		<th>Address</th>
+  		<th>Description</th>
+  	</tr>
+  	<% $event.each do |event| %>
+    <tr>
+      <td class="event_date"><%= "#{event["start_time"].strftime("%b %d, 20%y<br>%A")}" %></td>
+      <td class="event_time"><%= "#{event["start_time"].strftime("%I:%M%p")}" %></td>
+      <td class="event_title"><a href=<%="#{event["url"]}"%> > <%= "#{event["title"]}" %> </a> </td>
+      <td class="event_address">
+        <%= "#{event["venue_name"]} <br> #{event["venue_address"]}, #{event["city_name"]} <br>
+        #{event["region_name"]}, #{event["postal_code"]}" %>
+    	</td>   
+	   <td> <div class="event_description"><%= "#{event["description"]}" %> </div></td>
+    </tr> 
+    <% end %>
+  </table>
+  </div> <!-- End of left column -->
 
 </div>
 
@@ -11,7 +34,7 @@
 	function initMap() {
 		var options = {
 			zoom: 11,
-			center: {lat: 40.7128, lng: -74.0060}
+			center: {lat: 40.7128, lng: -73.9970}
 		}
 
 		// Open google maps
@@ -63,7 +86,7 @@
 			marker.addListener("click", function() {
 				if (options.content) {
 					var infoWindow = new google.maps.InfoWindow({
-						content: `<h3>${options.content}</h3>`
+						content: `<h3 style="text-transform: uppercase;">${options.content}</h3>`
 					});
 					infoWindow.open(map, marker);
 				}

@@ -8,60 +8,58 @@
 
 <div class="wrapper">
   <div class="left-col">
-    <h2>Upcoming Events</h2>
+    <h2>Upcoming Races</h2>
 
-<table>
-  <% $event.each do |event| %>
-  <tr>
-    <td class="event_time"><%= "#{event["start_time"].strftime("%m / %d")}" %></td>
-    <td class="event_title"><a href=<%="#{event["url"]}"%> > <%= "#{event["title"]}" %> </a> <br>
-      <%= "#{event["venue_address"]}, #{event["region_name"]} #{event["postal_code"]}" %></td>   
-  </tr> 
-  <% end %>
-</table>
-</div>
+  <table>
+    <% $event.each do |event| %>
+    <tr>
+      <td class="event_time"><%= "#{event["start_time"].strftime("%b %d, 20%y")}" %></td>
+      <td class="event_title"><a href=<%="#{event["url"]}"%> > <%= "#{event["title"]}" %> </a> <br>
+        <%= "#{event["venue_address"]}, #{event["region_name"]}, #{event["postal_code"]}" %></td>   
+    </tr> 
+    <% end %>
+  </table>
+  </div> <!-- End of left column -->
  
 
   <div class="right-col">
     <h2>Feature Stories</h2>
 
-<table>
-    <tr>
-      <td><img src="/images/article1.jpg"></td>
-      <td>    
-        <h4>5 Things No One Tells You About Running as You Get Older</h4>
-        <p>
-         “In life when you’re having a rough day, to stay mentally committed and get through that and still be a good mom and a good wife and a good ambassador to your community is really gratifying,” she says. 
-         <a href="https://www.runnersworld.com/5-things-no-one-tells-you-about-running-as-you-get-older?internal_recirc=outbrain_hp">Read more...</a>
-        </p>
-      </td>
-    </tr>
-    <tr>
-      <td><img src="/images/article2.jpg"></td>
-      <td>
-        <h4>5 Guys Who Wake up at 4 a.m. To Work out Tell You How They Do It</h4>
-        <p>
-          Squeezing in a run before the rest of the world is even awake takes an extreme amount of willpower and dedication, and maybe a bit of insanity. But if you work at it, anyone can become an early riser, says Men’s Health sleep advisor W. Christopher Winter, M.D.
-          <a href="https://www.runnersworld.com/advice/5-guys-who-wake-up-at-4-am-to-work-out-tell-you-how-they-do-it?internal_recirc=outbrain_hp">Read more...</a>
-        </p>
-      </td>
-    </tr>
-    <tr>
-      <td><img src="/images/article3.jpg"></td>
-      <td>
-        <h4>16 Ways People at the Gym Know You’re a Runner</h4>
-        <p>
-          Let’s get real: When it comes to the gym, a majority of runners would much rather be out on the roads, a scenic trail, or repeating some loops on the track. 
-          <a href="https://www.runnersworld.com/fun/16-ways-people-at-the-gym-know-youre-a-runner?internal_recirc=outbrain_hp">Read more...</a>
-        </p>
-      </td>
-    </tr>
-</table>
+  <table>
+      <tr>
+        <td><img src="/images/article1.jpg"></td>
+        <td>    
+          <h4>5 Things No One Tells You About Running as You Get Older</h4>
+          <p>
+           “In life when you’re having a rough day, to stay mentally committed and get through that and still be a good mom and a good wife and a good ambassador to your community is really gratifying,” she says. 
+           <a href="https://www.runnersworld.com/5-things-no-one-tells-you-about-running-as-you-get-older?internal_recirc=outbrain_hp">Read more...</a>
+          </p>
+        </td>
+      </tr>
+      <tr>
+        <td><img src="/images/article2.jpg"></td>
+        <td>
+          <h4>5 Guys Who Wake up at 4 a.m. To Work out Tell You How They Do It</h4>
+          <p>
+            Squeezing in a run before the rest of the world is even awake takes an extreme amount of willpower and dedication, and maybe a bit of insanity. But if you work at it, anyone can become an early riser, says Men’s Health sleep advisor W. Christopher Winter, M.D.
+            <a href="https://www.runnersworld.com/advice/5-guys-who-wake-up-at-4-am-to-work-out-tell-you-how-they-do-it?internal_recirc=outbrain_hp">Read more...</a>
+          </p>
+        </td>
+      </tr>
+      <tr>
+        <td><img src="/images/article3.jpg"></td>
+        <td>
+          <h4>16 Ways People at the Gym Know You’re a Runner</h4>
+          <p>
+            Let’s get real: When it comes to the gym, a majority of runners would much rather be out on the roads, a scenic trail, or repeating some loops on the track. 
+            <a href="https://www.runnersworld.com/fun/16-ways-people-at-the-gym-know-youre-a-runner?internal_recirc=outbrain_hp">Read more...</a>
+          </p>
+        </td>
+      </tr>
+  </table>
 
+  </div> <!-- End of right column -->
 
-
-  </div>
-
-</div>
+</div> <!-- End of wrapper -->
 
 

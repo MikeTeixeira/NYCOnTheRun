@@ -21,12 +21,6 @@
 		"oAP": "\/.gitignore",
 		"oF": 0
 		},
-	"\/app.rb": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/app.rb",
-		"oF": 0
-		},
 	"\/Gemfile": {
 		"ft": 8192,
 		"oA": 2,
@@ -202,72 +196,16 @@
 		"sC": 0,
 		"tS": 0
 		},
-	"\/public\/main.js": {
-		"ft": 64,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "\/public\/main-min.js",
-		"oF": 0,
-		"sC": 0,
-		"tS": 0
-		},
-	"\/public\/styles.css": {
-		"aP": 1,
-		"bl": 0,
-		"ft": 16,
-		"ma": 0,
-		"oA": 0,
-		"oAP": "\/public\/styles-min.css",
-		"oF": 0,
-		"oS": 3
-		},
-	"\/public\/styles.scss": {
-		"aP": 0,
-		"bl": 1,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 0,
-		"oAP": "\/public\/styles.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
 	"\/views\/contact.erb": {
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/views\/contact.erb",
 		"oF": 0
 		},
-	"\/views\/footer.erb": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/views\/footer.erb",
-		"oF": 0
-		},
-	"\/views\/home.erb": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/views\/home.erb",
-		"oF": 0
-		},
 	"\/views\/layout.erb": {
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/views\/layout.erb",
-		"oF": 0
-		},
-	"\/views\/map.erb": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/views\/map.erb",
-		"oF": 0
-		},
-	"\/views\/nav.erb": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/views\/nav.erb",
 		"oF": 0
 		},
 	"\/views\/runners.erb": {

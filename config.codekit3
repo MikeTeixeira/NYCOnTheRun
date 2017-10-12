@@ -33,6 +33,139 @@
 		"oAP": "\/Gemfile.lock",
 		"oF": 0
 		},
+	"\/public\/images\/article1.jpg": {
+		"ft": 16384,
+		"iS": 74064,
+		"oA": 0,
+		"oAP": "\/public\/images\/article1.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/public\/images\/article2.jpg": {
+		"ft": 16384,
+		"iS": 17921,
+		"oA": 0,
+		"oAP": "\/public\/images\/article2.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/public\/images\/article3.jpg": {
+		"ft": 16384,
+		"iS": 33952,
+		"oA": 0,
+		"oAP": "\/public\/images\/article3.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/public\/images\/athlete_1.jpg": {
+		"ft": 16384,
+		"iS": 73003,
+		"oA": 0,
+		"oAP": "\/public\/images\/athlete_1.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/public\/images\/athlete_2.jpg": {
+		"ft": 16384,
+		"iS": 29067,
+		"oA": 0,
+		"oAP": "\/public\/images\/athlete_2.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/public\/images\/athlete_3.jpg": {
+		"ft": 16384,
+		"iS": 41573,
+		"oA": 0,
+		"oAP": "\/public\/images\/athlete_3.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/public\/images\/athlete_4.jpg": {
+		"ft": 16384,
+		"iS": 78038,
+		"oA": 0,
+		"oAP": "\/public\/images\/athlete_4.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/public\/images\/athlete_4.png": {
+		"ft": 32768,
+		"iS": 196538,
+		"oA": 0,
+		"oAP": "\/public\/images\/athlete_4.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/public\/images\/athlete_5.jpg": {
+		"ft": 16384,
+		"iS": 34385,
+		"oA": 0,
+		"oAP": "\/public\/images\/athlete_5.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/public\/images\/contact_background.jpg": {
+		"ft": 16384,
+		"iS": 4868738,
+		"oA": 0,
+		"oAP": "\/public\/images\/contact_background.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/public\/images\/flag-vector.png": {
+		"ft": 32768,
+		"iS": 1997,
+		"oA": 0,
+		"oAP": "\/public\/images\/flag-vector.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/public\/images\/running-header.jpg": {
+		"ft": 16384,
+		"iS": 96715,
+		"oA": 0,
+		"oAP": "\/public\/images\/running-header.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/public\/images\/running-vector.png": {
+		"ft": 32768,
+		"iS": 1324,
+		"oA": 0,
+		"oAP": "\/public\/images\/running-vector.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
 	"\/public\/main-min.js": {
 		"ft": 64,
 		"ma": 0,
@@ -50,7 +183,7 @@
 		"oA": 0,
 		"oAP": "\/public\/main-min.js",
 		"oF": 0,
-		"sC": 3,
+		"sC": 0,
 		"tS": 0
 		},
 	"\/public\/styles.css": {
@@ -929,7 +1062,7 @@
 			},
 		"no-extra-parens": {
 			"active": 0,
-			"optionString": "'all', {'conditionalAssign': false, 'returnAssign': false, 'nestedBinaryExpressions': false, 'ignoreJSX': 'none', 'enforceForArrowConditionals': false}"
+			"optionString": "'all', {'conditionalAssign': false, 'returnAssign': false, 'nestedBinaryExpressions': false, 'ignoreJSX': 'none'}"
 			},
 		"no-extra-semi": {
 			"active": 1,
@@ -1177,7 +1310,7 @@
 			},
 		"no-sync": {
 			"active": 0,
-			"optionString": "{'allowAtRootLevel': false}"
+			"optionString": ""
 			},
 		"no-tabs": {
 			"active": 0,
@@ -1201,7 +1334,7 @@
 			},
 		"no-trailing-spaces": {
 			"active": 0,
-			"optionString": "{'skipBlankLines': false, 'ignoreComments': false}"
+			"optionString": "{'skipBlankLines': false}"
 			},
 		"no-undef": {
 			"active": 1,
@@ -1217,7 +1350,7 @@
 			},
 		"no-underscore-dangle": {
 			"active": 0,
-			"optionString": "{'allow': [], 'allowAfterThis': false, 'allowAfterSuper': false, 'enforceInMethodNames': false}"
+			"optionString": "{'allow': [], 'allowAfterThis': false, 'allowAfterSuper': false}"
 			},
 		"no-unexpected-multiline": {
 			"active": 1,
@@ -1934,7 +2067,7 @@
 		"autoOutputPathStyle": 0,
 		"createSourceMap": 0,
 		"minifyOutput": 1,
-		"syntaxCheckerStyle": 3,
+		"syntaxCheckerStyle": 0,
 		"transpilerStyle": 0
 		},
 	"languageDefaultsJSON": {

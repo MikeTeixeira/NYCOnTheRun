@@ -5,6 +5,5 @@ document.addEventListener("DOMContentLoaded", function(){
 
 	  elRaceButton.addEventListener("click", function(){
     elModal.classList.add("ease_in");
-      });
   });
 
